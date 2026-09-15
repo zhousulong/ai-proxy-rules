@@ -1,0 +1,50 @@
+name: Auto Update AI Proxy Rules
+
+on:
+  schedule:
+    # 每天北京时间早上 04:00 (UTC 20:00) 自动执行
+    - cron: '0 20 * * *'
+  workflow_dispatch: # 支持在 GitHub 后台手动点击执行
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/auto_update.yml'
+      - 'update_rules.py'
+      - 'build_rules.py'
+
+permissions:
+  contents: write
+
+jobs:
+  update-rules:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出仓库代码
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: 配置 Python 环境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 执行规则更新与构建
+        run: |
+          python3 update_rules.py
+
+      - name: 检查变动并自动推送到仓库
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet AIProxy.list AIProxy_Lite.list AIProxy.yaml AIProxy_Lite.yaml; then
+            echo "分流规则没有变动，跳过提交。"
+          else
+            echo "检测到新规则变动，正在提交并推送..."
+            git add AIProxy.list AIProxy_Lite.list AIProxy.yaml AIProxy_Lite.yaml
+            git commit -m "chore(auto-update): 自动同步最新第三方 AI 分流规则 (Loon / Clash) [skip ci]"
+            git push origin main
+          fi
