@@ -1,6 +1,6 @@
 # ==================================================================
 # 规则名称: 精选高频第三方 AI API 中转分流规则 (AIProxy_Lite.yaml - Clash 纯海外/免翻分流版)
-# 更新时间: 2026-09-22 22:45:37
+# 更新时间: 2026-09-23 22:42:38
 # 包含域名: 478 个高频/多源收录中转站根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Clash / Clash Meta (Mihomo) / Clash Verge / Stash 等
@@ -40,7 +40,6 @@ payload:
   - DOMAIN-SUFFIX,aicodemirror.com
   - DOMAIN-SUFFIX,aicoding.sh
   - DOMAIN-SUFFIX,aigcbest.top
-  - DOMAIN-SUFFIX,aigocode.app
   - DOMAIN-SUFFIX,aigocode.com
   - DOMAIN-SUFFIX,aihubmix.com
   - DOMAIN-SUFFIX,aimlapi.com
@@ -51,7 +50,7 @@ payload:
   - DOMAIN-SUFFIX,aisafa.xyz
   - DOMAIN-SUFFIX,aispeech.com
   - DOMAIN-SUFFIX,aisz.mom
-  - DOMAIN-SUFFIX,aitechflux.com
+  - DOMAIN-SUFFIX,aixia.tech
   - DOMAIN-SUFFIX,aixor.dev
   - DOMAIN-SUFFIX,aiyahmm.com
   - DOMAIN-SUFFIX,aizhongzhuan.com
@@ -74,7 +73,6 @@ payload:
   - DOMAIN-SUFFIX,apiplus.cloud
   - DOMAIN-SUFFIX,apipool.dev
   - DOMAIN-SUFFIX,apiporter.com
-  - DOMAIN-SUFFIX,apirouter.ai
   - DOMAIN-SUFFIX,apito.ai
   - DOMAIN-SUFFIX,apiyi.com
   - DOMAIN-SUFFIX,arilo.id
@@ -242,6 +240,7 @@ payload:
   - DOMAIN-SUFFIX,kantro.dev
   - DOMAIN-SUFFIX,kapibala.asia
   - DOMAIN-SUFFIX,kfcv50.link
+  - DOMAIN-SUFFIX,kisekiremi.moe
   - DOMAIN-SUFFIX,kivocat.com
   - DOMAIN-SUFFIX,kkaiapi.com
   - DOMAIN-SUFFIX,kksj.org
@@ -272,6 +271,7 @@ payload:
   - DOMAIN-SUFFIX,makelove.cloud
   - DOMAIN-SUFFIX,marting.pro
   - DOMAIN-SUFFIX,matchfit.top
+  - DOMAIN-SUFFIX,matrcode.com
   - DOMAIN-SUFFIX,maya.today
   - DOMAIN-SUFFIX,maynor1024.live
   - DOMAIN-SUFFIX,meai.cloud
@@ -305,7 +305,6 @@ payload:
   - DOMAIN-SUFFIX,nbility.ai
   - DOMAIN-SUFFIX,nebius.com
   - DOMAIN-SUFFIX,nekoapi.com
-  - DOMAIN-SUFFIX,nekocode.ai
   - DOMAIN-SUFFIX,new.bi
   - DOMAIN-SUFFIX,newcli.com
   - DOMAIN-SUFFIX,nf.video
@@ -323,6 +322,7 @@ payload:
   - DOMAIN-SUFFIX,ohmygpt.com
   - DOMAIN-SUFFIX,omniakey.com
   - DOMAIN-SUFFIX,onechats.top
+  - DOMAIN-SUFFIX,onetoken.one
   - DOMAIN-SUFFIX,ope.ai
   - DOMAIN-SUFFIX,openai-ch.top
   - DOMAIN-SUFFIX,openai-hk.com

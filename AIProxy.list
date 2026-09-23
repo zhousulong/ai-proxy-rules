@@ -1,7 +1,7 @@
 # ==================================================================
 # 规则名称: 第三方 AI API 中转与代理分流规则 (AIProxy.list - 纯海外/免翻分流版)
-# 更新时间: 2026-09-22 22:45:37
-# 包含域名: 1018 个独立中转服务商根域名
+# 更新时间: 2026-09-23 22:42:38
+# 包含域名: 1026 个独立中转服务商根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Loon / Surge / Shadowrocket / Clash 等
 # 数据来源聚合:
@@ -45,6 +45,7 @@ DOMAIN-SUFFIX,68886868.xyz
 DOMAIN-SUFFIX,756777.xyz
 DOMAIN-SUFFIX,78code.cc
 DOMAIN-SUFFIX,88996.cloud
+DOMAIN-SUFFIX,88996api.cloud
 DOMAIN-SUFFIX,88code.org
 DOMAIN-SUFFIX,8s.hk
 DOMAIN-SUFFIX,8yes.cc
@@ -85,13 +86,13 @@ DOMAIN-SUFFIX,aicost.xyz
 DOMAIN-SUFFIX,aicso.top
 DOMAIN-SUFFIX,aider.chat
 DOMAIN-SUFFIX,aieania.tech
+DOMAIN-SUFFIX,aierxin.cc
 DOMAIN-SUFFIX,aifamily.vip
 DOMAIN-SUFFIX,aifast.club
 DOMAIN-SUFFIX,aifast.site
 DOMAIN-SUFFIX,aigc.bar
 DOMAIN-SUFFIX,aigc2d.com
 DOMAIN-SUFFIX,aigcbest.top
-DOMAIN-SUFFIX,aigocode.app
 DOMAIN-SUFFIX,aigocode.com
 DOMAIN-SUFFIX,aihubmix.com
 DOMAIN-SUFFIX,aimlapi.com
@@ -240,6 +241,7 @@ DOMAIN-SUFFIX,character.ai
 DOMAIN-SUFFIX,chatboxai.app
 DOMAIN-SUFFIX,chatgptid.net
 DOMAIN-SUFFIX,chatshare.one
+DOMAIN-SUFFIX,cheaprouter.cc
 DOMAIN-SUFFIX,chenyiapi.com
 DOMAIN-SUFFIX,cherry-ai.com
 DOMAIN-SUFFIX,cherryin.net
@@ -379,6 +381,7 @@ DOMAIN-SUFFIX,enconvo.com
 DOMAIN-SUFFIX,ephone.ai
 DOMAIN-SUFFIX,ergouzi.life
 DOMAIN-SUFFIX,eu.org
+DOMAIN-SUFFIX,fastaitoken.com
 DOMAIN-SUFFIX,fastcode.dev
 DOMAIN-SUFFIX,favicon.is
 DOMAIN-SUFFIX,favicon.pub
@@ -431,6 +434,7 @@ DOMAIN-SUFFIX,gptgod.online
 DOMAIN-SUFFIX,gptgod.work
 DOMAIN-SUFFIX,gptnb.ai
 DOMAIN-SUFFIX,gptoai.cc
+DOMAIN-SUFFIX,gptsapi.net
 DOMAIN-SUFFIX,gptuu.com
 DOMAIN-SUFFIX,gravitex.ai
 DOMAIN-SUFFIX,growupapi.ltd
@@ -439,6 +443,7 @@ DOMAIN-SUFFIX,guagua.uk
 DOMAIN-SUFFIX,guaihub.com
 DOMAIN-SUFFIX,guaiyun.cc
 DOMAIN-SUFFIX,gueai.com
+DOMAIN-SUFFIX,guyscode.com
 DOMAIN-SUFFIX,gzxsy.vip
 DOMAIN-SUFFIX,h-e.top
 DOMAIN-SUFFIX,hahacode.com
@@ -515,6 +520,7 @@ DOMAIN-SUFFIX,kaopuapi.xyz
 DOMAIN-SUFFIX,kapibala.asia
 DOMAIN-SUFFIX,kelaiapi.cc
 DOMAIN-SUFFIX,kelaodealics.icu
+DOMAIN-SUFFIX,keuapi.com
 DOMAIN-SUFFIX,kfcv50.link
 DOMAIN-SUFFIX,kg-api.cloud
 DOMAIN-SUFFIX,kisekiremi.moe
@@ -741,6 +747,7 @@ DOMAIN-SUFFIX,pomoai.xyz
 DOMAIN-SUFFIX,ppchat.vip
 DOMAIN-SUFFIX,ppio.com
 DOMAIN-SUFFIX,pptoken.org
+DOMAIN-SUFFIX,pqh.ai
 DOMAIN-SUFFIX,prismapi.site
 DOMAIN-SUFFIX,privnode.com
 DOMAIN-SUFFIX,proai.love
@@ -784,6 +791,7 @@ DOMAIN-SUFFIX,rkai6.com
 DOMAIN-SUFFIX,rootflowai.com
 DOMAIN-SUFFIX,routeeasy.ai
 DOMAIN-SUFFIX,routescope.ai
+DOMAIN-SUFFIX,rsiai.net
 DOMAIN-SUFFIX,ruishiglobal.com
 DOMAIN-SUFFIX,runapi.co
 DOMAIN-SUFFIX,runapi.host
