@@ -1,7 +1,7 @@
 # ==================================================================
 # 规则名称: 精选高频第三方 AI API 中转分流规则 (AIProxy_Lite.list - 纯海外/免翻分流版)
-# 更新时间: 2026-09-24 23:02:08
-# 包含域名: 481 个高频/多源收录中转站根域名
+# 更新时间: 2026-09-25 23:06:24
+# 包含域名: 478 个高频/多源收录中转站根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Loon / Surge / Shadowrocket / Clash 等
 # ==================================================================
@@ -73,6 +73,7 @@ DOMAIN-SUFFIX,apinoma.com
 DOMAIN-SUFFIX,apiplus.cloud
 DOMAIN-SUFFIX,apipool.dev
 DOMAIN-SUFFIX,apiporter.com
+DOMAIN-SUFFIX,apirouter.ai
 DOMAIN-SUFFIX,apito.ai
 DOMAIN-SUFFIX,apiyi.com
 DOMAIN-SUFFIX,arilo.id
@@ -148,7 +149,6 @@ DOMAIN-SUFFIX,cubence.com
 DOMAIN-SUFFIX,cun.ai
 DOMAIN-SUFFIX,cursorai.art
 DOMAIN-SUFFIX,cwapi.vip
-DOMAIN-SUFFIX,dadakeji.com
 DOMAIN-SUFFIX,danchaofan.org
 DOMAIN-SUFFIX,daodunapi.com
 DOMAIN-SUFFIX,dawclaudecode.com
@@ -158,6 +158,7 @@ DOMAIN-SUFFIX,db-kj.com
 DOMAIN-SUFFIX,ddshub.cc
 DOMAIN-SUFFIX,deepinfra.com
 DOMAIN-SUFFIX,deepkey.top
+DOMAIN-SUFFIX,derouter.ai
 DOMAIN-SUFFIX,devai.ai
 DOMAIN-SUFFIX,devcode.ai
 DOMAIN-SUFFIX,devfast.ai
@@ -176,6 +177,7 @@ DOMAIN-SUFFIX,duckcoding.com
 DOMAIN-SUFFIX,duiapi.com
 DOMAIN-SUFFIX,dzzi.ai
 DOMAIN-SUFFIX,easy-token.com
+DOMAIN-SUFFIX,easyai.host
 DOMAIN-SUFFIX,easyrouter.com
 DOMAIN-SUFFIX,ekan8.com
 DOMAIN-SUFFIX,ekti.cc
@@ -213,7 +215,6 @@ DOMAIN-SUFFIX,gu28.top
 DOMAIN-SUFFIX,guagua.uk
 DOMAIN-SUFFIX,gueai.com
 DOMAIN-SUFFIX,guoneiapi.com
-DOMAIN-SUFFIX,handsfreeclub.com
 DOMAIN-SUFFIX,hapiopen.cc
 DOMAIN-SUFFIX,heilovehei.com
 DOMAIN-SUFFIX,hejuapi.com
@@ -268,11 +269,9 @@ DOMAIN-SUFFIX,lqapi.xyz
 DOMAIN-SUFFIX,luccc.uk
 DOMAIN-SUFFIX,luminai.cc
 DOMAIN-SUFFIX,luxerycaseglobal.com
-DOMAIN-SUFFIX,lyapunov-vector.com
 DOMAIN-SUFFIX,makelove.cloud
 DOMAIN-SUFFIX,marting.pro
 DOMAIN-SUFFIX,matchfit.top
-DOMAIN-SUFFIX,matrcode.com
 DOMAIN-SUFFIX,maya.today
 DOMAIN-SUFFIX,maynor1024.live
 DOMAIN-SUFFIX,meai.cloud
@@ -306,7 +305,6 @@ DOMAIN-SUFFIX,nanobanana.com
 DOMAIN-SUFFIX,nbility.ai
 DOMAIN-SUFFIX,nebius.com
 DOMAIN-SUFFIX,nekoapi.com
-DOMAIN-SUFFIX,nekocode.ai
 DOMAIN-SUFFIX,new.bi
 DOMAIN-SUFFIX,newcli.com
 DOMAIN-SUFFIX,nf.video
@@ -342,13 +340,11 @@ DOMAIN-SUFFIX,pateway.ai
 DOMAIN-SUFFIX,pinecone.io
 DOMAIN-SUFFIX,pipellm.ai
 DOMAIN-SUFFIX,piteai.com
-DOMAIN-SUFFIX,pixelmuse.shop
 DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,poixe.com
 DOMAIN-SUFFIX,poloai.top
 DOMAIN-SUFFIX,poloapi.com
 DOMAIN-SUFFIX,ppio.com
-DOMAIN-SUFFIX,prismapi.site
 DOMAIN-SUFFIX,privnode.com
 DOMAIN-SUFFIX,proaiapi.tech
 DOMAIN-SUFFIX,qdrant.tech
@@ -356,6 +352,7 @@ DOMAIN-SUFFIX,qianweikeji.fun
 DOMAIN-SUFFIX,qicunshang.com
 DOMAIN-SUFFIX,qiniu.com
 DOMAIN-SUFFIX,qinzhiai.com
+DOMAIN-SUFFIX,qiuqiutoken.com
 DOMAIN-SUFFIX,qiyiguo.uk
 DOMAIN-SUFFIX,qqqrouter.ai
 DOMAIN-SUFFIX,quickrouter.ai
@@ -387,6 +384,7 @@ DOMAIN-SUFFIX,sixthsense-llm.com
 DOMAIN-SUFFIX,slack.com
 DOMAIN-SUFFIX,soruxgpt.com
 DOMAIN-SUFFIX,sparkcode.top
+DOMAIN-SUFFIX,squarefaceicon.org
 DOMAIN-SUFFIX,sssaiapi.com
 DOMAIN-SUFFIX,suanniao.shop
 DOMAIN-SUFFIX,sublyx.org
@@ -444,7 +442,6 @@ DOMAIN-SUFFIX,weelinking.com
 DOMAIN-SUFFIX,wenmodel.com
 DOMAIN-SUFFIX,whatai.cc
 DOMAIN-SUFFIX,whenreset.app
-DOMAIN-SUFFIX,worldbase.ai
 DOMAIN-SUFFIX,wrouter.ai
 DOMAIN-SUFFIX,wuyinkeji.com
 DOMAIN-SUFFIX,x-aio.com

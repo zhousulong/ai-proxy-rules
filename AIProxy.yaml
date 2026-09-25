@@ -1,6 +1,6 @@
 # ==================================================================
 # 规则名称: 第三方 AI API 中转与代理分流规则 (AIProxy.yaml - Clash 纯海外/免翻分流版)
-# 更新时间: 2026-09-24 23:02:08
+# 更新时间: 2026-09-25 23:06:24
 # 包含域名: 1035 个独立中转服务商根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Clash / Clash Meta (Mihomo) / Clash Verge / Stash 等
@@ -29,6 +29,7 @@ payload:
   - DOMAIN-SUFFIX,1aicode.space
   - DOMAIN-SUFFIX,1xm.ai
   - DOMAIN-SUFFIX,302.ai
+  - DOMAIN-SUFFIX,302ai.com
   - DOMAIN-SUFFIX,34ku.com
   - DOMAIN-SUFFIX,36niu.com
   - DOMAIN-SUFFIX,4aicode.com
@@ -438,7 +439,6 @@ payload:
   - DOMAIN-SUFFIX,gptgod.work
   - DOMAIN-SUFFIX,gptnb.ai
   - DOMAIN-SUFFIX,gptoai.cc
-  - DOMAIN-SUFFIX,gptsapi.net
   - DOMAIN-SUFFIX,gptuu.com
   - DOMAIN-SUFFIX,gravitex.ai
   - DOMAIN-SUFFIX,growupapi.ltd
