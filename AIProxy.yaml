@@ -1,7 +1,7 @@
 # ==================================================================
 # 规则名称: 第三方 AI API 中转与代理分流规则 (AIProxy.yaml - Clash 纯海外/免翻分流版)
-# 更新时间: 2026-09-25 23:06:24
-# 包含域名: 1035 个独立中转服务商根域名
+# 更新时间: 2026-09-26 22:23:43
+# 包含域名: 1039 个独立中转服务商根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Clash / Clash Meta (Mihomo) / Clash Verge / Stash 等
 # 配置方式: rule-providers (behavior: classical)
@@ -512,6 +512,7 @@ payload:
   - DOMAIN-SUFFIX,jizhiapi.site
   - DOMAIN-SUFFIX,jmpb-szb.com
   - DOMAIN-SUFFIX,jojocode.com
+  - DOMAIN-SUFFIX,jokers.pub
   - DOMAIN-SUFFIX,juguang.chat
   - DOMAIN-SUFFIX,jui87.com
   - DOMAIN-SUFFIX,jundao.ai
@@ -686,6 +687,7 @@ payload:
   - DOMAIN-SUFFIX,oai1.online
   - DOMAIN-SUFFIX,oai2api.com
   - DOMAIN-SUFFIX,oaipro.com
+  - DOMAIN-SUFFIX,octorouter.dev
   - DOMAIN-SUFFIX,officesai.top
   - DOMAIN-SUFFIX,ofox.ai
   - DOMAIN-SUFFIX,ogog.ai
@@ -939,6 +941,7 @@ payload:
   - DOMAIN-SUFFIX,wappkit.com
   - DOMAIN-SUFFIX,wasdxx.xyz
   - DOMAIN-SUFFIX,wawazz.xyz
+  - DOMAIN-SUFFIX,wbhub.site
   - DOMAIN-SUFFIX,weaviate.io
   - DOMAIN-SUFFIX,weelinking.com
   - DOMAIN-SUFFIX,weijiekk.xyz
@@ -952,6 +955,7 @@ payload:
   - DOMAIN-SUFFIX,wolfai.top
   - DOMAIN-SUFFIX,worldbase.ai
   - DOMAIN-SUFFIX,worldclaw.ai
+  - DOMAIN-SUFFIX,wotos.pro
   - DOMAIN-SUFFIX,wqdsjhaoai.site
   - DOMAIN-SUFFIX,wrouter.ai
   - DOMAIN-SUFFIX,wuai.ai
