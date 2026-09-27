@@ -1,7 +1,7 @@
 # ==================================================================
 # 规则名称: 精选高频第三方 AI API 中转分流规则 (AIProxy_Lite.yaml - Clash 纯海外/免翻分流版)
-# 更新时间: 2026-09-26 22:23:43
-# 包含域名: 485 个高频/多源收录中转站根域名
+# 更新时间: 2026-09-27 22:49:56
+# 包含域名: 489 个高频/多源收录中转站根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Clash / Clash Meta (Mihomo) / Clash Verge / Stash 等
 # 配置方式: rule-providers (behavior: classical)
@@ -62,6 +62,7 @@ payload:
   - DOMAIN-SUFFIX,anyrouter.dev
   - DOMAIN-SUFFIX,anyrouter.top
   - DOMAIN-SUFFIX,api-rank.com
+  - DOMAIN-SUFFIX,api-route.com
   - DOMAIN-SUFFIX,api-top.com
   - DOMAIN-SUFFIX,api2d.com
   - DOMAIN-SUFFIX,api520.pro
@@ -74,7 +75,6 @@ payload:
   - DOMAIN-SUFFIX,apiplus.cloud
   - DOMAIN-SUFFIX,apipool.dev
   - DOMAIN-SUFFIX,apiporter.com
-  - DOMAIN-SUFFIX,apirouter.ai
   - DOMAIN-SUFFIX,apito.ai
   - DOMAIN-SUFFIX,apiyi.com
   - DOMAIN-SUFFIX,arilo.id
@@ -160,6 +160,7 @@ payload:
   - DOMAIN-SUFFIX,ddshub.cc
   - DOMAIN-SUFFIX,deepinfra.com
   - DOMAIN-SUFFIX,deepkey.top
+  - DOMAIN-SUFFIX,derouter.ai
   - DOMAIN-SUFFIX,devai.ai
   - DOMAIN-SUFFIX,devcode.ai
   - DOMAIN-SUFFIX,devfast.ai
@@ -187,6 +188,7 @@ payload:
   - DOMAIN-SUFFIX,fastcode.dev
   - DOMAIN-SUFFIX,featherless.ai
   - DOMAIN-SUFFIX,fkclaude.xyz
+  - DOMAIN-SUFFIX,flashapi.top
   - DOMAIN-SUFFIX,fluapi.com
   - DOMAIN-SUFFIX,freemodel.dev
   - DOMAIN-SUFFIX,frontier-intelligence.tech
@@ -194,7 +196,6 @@ payload:
   - DOMAIN-SUFFIX,fulitimes.com
   - DOMAIN-SUFFIX,fusecode.cc
   - DOMAIN-SUFFIX,fyoulink.com
-  - DOMAIN-SUFFIX,geekai.co
   - DOMAIN-SUFFIX,gemai.cc
   - DOMAIN-SUFFIX,generalvision.com
   - DOMAIN-SUFFIX,getezclaw.com
@@ -223,6 +224,7 @@ payload:
   - DOMAIN-SUFFIX,helpcoder.cc
   - DOMAIN-SUFFIX,hezubus.cc
   - DOMAIN-SUFFIX,hohoapi.com
+  - DOMAIN-SUFFIX,holysheep.ai
   - DOMAIN-SUFFIX,hongmacc.com
   - DOMAIN-SUFFIX,huahuaapi.com
   - DOMAIN-SUFFIX,huanapi.com
@@ -270,7 +272,6 @@ payload:
   - DOMAIN-SUFFIX,luccc.uk
   - DOMAIN-SUFFIX,luminai.cc
   - DOMAIN-SUFFIX,luxerycaseglobal.com
-  - DOMAIN-SUFFIX,lyapunov-vector.com
   - DOMAIN-SUFFIX,makelove.cloud
   - DOMAIN-SUFFIX,marting.pro
   - DOMAIN-SUFFIX,matchfit.top
@@ -308,6 +309,7 @@ payload:
   - DOMAIN-SUFFIX,nbility.ai
   - DOMAIN-SUFFIX,nebius.com
   - DOMAIN-SUFFIX,nekoapi.com
+  - DOMAIN-SUFFIX,nekocode.ai
   - DOMAIN-SUFFIX,new.bi
   - DOMAIN-SUFFIX,newcli.com
   - DOMAIN-SUFFIX,nf.video
@@ -326,6 +328,7 @@ payload:
   - DOMAIN-SUFFIX,ohmygpt.com
   - DOMAIN-SUFFIX,omniakey.com
   - DOMAIN-SUFFIX,onechats.top
+  - DOMAIN-SUFFIX,onetoken.one
   - DOMAIN-SUFFIX,ope.ai
   - DOMAIN-SUFFIX,openai-ch.top
   - DOMAIN-SUFFIX,openai-hk.com
@@ -416,6 +419,7 @@ payload:
   - DOMAIN-SUFFIX,tokens-forge.com
   - DOMAIN-SUFFIX,tomchat.fun
   - DOMAIN-SUFFIX,tongapi.com
+  - DOMAIN-SUFFIX,traxnode.com
   - DOMAIN-SUFFIX,true-sota.com
   - DOMAIN-SUFFIX,tryallai.com
   - DOMAIN-SUFFIX,trychroma.com
