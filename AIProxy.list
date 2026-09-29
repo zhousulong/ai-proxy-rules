@@ -1,7 +1,7 @@
 # ==================================================================
 # 规则名称: 第三方 AI API 中转与代理分流规则 (AIProxy.list - 纯海外/免翻分流版)
-# 更新时间: 2026-09-27 22:49:56
-# 包含域名: 1040 个独立中转服务商根域名
+# 更新时间: 2026-09-29 00:12:46
+# 包含域名: 1048 个独立中转服务商根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Loon / Surge / Shadowrocket / Clash 等
 # 数据来源聚合:
@@ -76,6 +76,7 @@ DOMAIN-SUFFIX,aiapipk.com
 DOMAIN-SUFFIX,aiapis.io
 DOMAIN-SUFFIX,aibasekit.com
 DOMAIN-SUFFIX,aiberm.com
+DOMAIN-SUFFIX,aicanapi.com
 DOMAIN-SUFFIX,aicca.cc
 DOMAIN-SUFFIX,aicode.us.com
 DOMAIN-SUFFIX,aicodemirror.ai
@@ -120,6 +121,7 @@ DOMAIN-SUFFIX,aiwts.com
 DOMAIN-SUFFIX,aiwuje.com
 DOMAIN-SUFFIX,aixia.tech
 DOMAIN-SUFFIX,aixor.dev
+DOMAIN-SUFFIX,aixwh.com
 DOMAIN-SUFFIX,aixzapi.top
 DOMAIN-SUFFIX,aiyahmm.com
 DOMAIN-SUFFIX,aizhongzhuan.com
@@ -183,6 +185,7 @@ DOMAIN-SUFFIX,avian.io
 DOMAIN-SUFFIX,aws.baby
 DOMAIN-SUFFIX,b.ai
 DOMAIN-SUFFIX,bailili.top
+DOMAIN-SUFFIX,baitoken.online
 DOMAIN-SUFFIX,bakdr.com
 DOMAIN-SUFFIX,banana.dev
 DOMAIN-SUFFIX,baobu.xyz
@@ -361,6 +364,7 @@ DOMAIN-SUFFIX,dmxapi.com
 DOMAIN-SUFFIX,dogenet.win
 DOMAIN-SUFFIX,dogrouter.ai
 DOMAIN-SUFFIX,doro.lol
+DOMAIN-SUFFIX,dpdns.org
 DOMAIN-SUFFIX,dragon3api.com
 DOMAIN-SUFFIX,dragoncode.codes
 DOMAIN-SUFFIX,dreamworld-ai.live
@@ -477,6 +481,7 @@ DOMAIN-SUFFIX,hongmacc.com
 DOMAIN-SUFFIX,hongqiye.com
 DOMAIN-SUFFIX,hopeai.cc
 DOMAIN-SUFFIX,hopeplay.online
+DOMAIN-SUFFIX,howtoken.net
 DOMAIN-SUFFIX,huahuaapi.com
 DOMAIN-SUFFIX,huanapi.com
 DOMAIN-SUFFIX,hubagi.ai
@@ -542,6 +547,7 @@ DOMAIN-SUFFIX,kuaipao.pro
 DOMAIN-SUFFIX,kudexapi.com
 DOMAIN-SUFFIX,kun8.vip
 DOMAIN-SUFFIX,kunlun.com
+DOMAIN-SUFFIX,lanbuff.app
 DOMAIN-SUFFIX,lancerouter.ai
 DOMAIN-SUFFIX,langziapi.online
 DOMAIN-SUFFIX,lanyiapi.com
@@ -963,11 +969,13 @@ DOMAIN-SUFFIX,wuaiai.net
 DOMAIN-SUFFIX,wuyinkeji.com
 DOMAIN-SUFFIX,x-aio.com
 DOMAIN-SUFFIX,x-llm.net
+DOMAIN-SUFFIX,x1998822.xyz
 DOMAIN-SUFFIX,xag-api.com
 DOMAIN-SUFFIX,xcdw.us
 DOMAIN-SUFFIX,xclis.ai
 DOMAIN-SUFFIX,xcode.best
 DOMAIN-SUFFIX,xeduapi.com
+DOMAIN-SUFFIX,xenrui.com
 DOMAIN-SUFFIX,xgapi.top
 DOMAIN-SUFFIX,xhuoai.com
 DOMAIN-SUFFIX,xiamiapi.xyz
