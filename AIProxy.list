@@ -1,6 +1,6 @@
 # ==================================================================
 # 规则名称: 第三方 AI API 中转与代理分流规则 (AIProxy.list - 纯海外/免翻分流版)
-# 更新时间: 2026-09-29 23:28:02
+# 更新时间: 2026-09-30 23:28:55
 # 包含域名: 1050 个独立中转服务商根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Loon / Surge / Shadowrocket / Clash 等
@@ -197,7 +197,6 @@ DOMAIN-SUFFIX,beecode.cc
 DOMAIN-SUFFIX,beefapi.com
 DOMAIN-SUFFIX,beehears.com
 DOMAIN-SUFFIX,beiji.fun
-DOMAIN-SUFFIX,bestcodex.xyz
 DOMAIN-SUFFIX,bestmax.cc
 DOMAIN-SUFFIX,bestswifter.com
 DOMAIN-SUFFIX,better-gate.com
@@ -1011,6 +1010,7 @@ DOMAIN-SUFFIX,xty.app
 DOMAIN-SUFFIX,xuanshuapi.com
 DOMAIN-SUFFIX,xueai.me
 DOMAIN-SUFFIX,xuedingtoken.com
+DOMAIN-SUFFIX,xxapi.ai
 DOMAIN-SUFFIX,xyc.ai
 DOMAIN-SUFFIX,xychatai.com
 DOMAIN-SUFFIX,xyusec.com
