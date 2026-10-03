@@ -1,7 +1,7 @@
 # ==================================================================
 # 规则名称: 精选高频第三方 AI API 中转分流规则 (AIProxy_Lite.list - 纯海外/免翻分流版)
-# 更新时间: 2026-10-02 23:35:08
-# 包含域名: 497 个高频/多源收录中转站根域名
+# 更新时间: 2026-10-03 22:41:47
+# 包含域名: 487 个高频/多源收录中转站根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Loon / Surge / Shadowrocket / Clash 等
 # ==================================================================
@@ -16,7 +16,6 @@ DOMAIN-SUFFIX,4aicode.com
 DOMAIN-SUFFIX,4sapi.ai
 DOMAIN-SUFFIX,4sapi.com
 DOMAIN-SUFFIX,52mx.net
-DOMAIN-SUFFIX,537-ai.net
 DOMAIN-SUFFIX,580ai.net
 DOMAIN-SUFFIX,68886868.xyz
 DOMAIN-SUFFIX,756777.xyz
@@ -30,13 +29,11 @@ DOMAIN-SUFFIX,aabao.top
 DOMAIN-SUFFIX,agentrouter.org
 DOMAIN-SUFFIX,ai-router.dev
 DOMAIN-SUFFIX,ai8.my
-DOMAIN-SUFFIX,ai98pro.xyz
 DOMAIN-SUFFIX,aiapi-pro.com
 DOMAIN-SUFFIX,aiapi.world
 DOMAIN-SUFFIX,aiapify.com
 DOMAIN-SUFFIX,aiapipk.com
 DOMAIN-SUFFIX,aiberm.com
-DOMAIN-SUFFIX,aicodemirror.ai
 DOMAIN-SUFFIX,aicodemirror.com
 DOMAIN-SUFFIX,aicoding.sh
 DOMAIN-SUFFIX,aicost.xyz
@@ -89,7 +86,6 @@ DOMAIN-SUFFIX,bailili.top
 DOMAIN-SUFFIX,banana.dev
 DOMAIN-SUFFIX,baobu.xyz
 DOMAIN-SUFFIX,baseten.co
-DOMAIN-SUFFIX,bbww.top
 DOMAIN-SUFFIX,bce.com
 DOMAIN-SUFFIX,bearlab.ai
 DOMAIN-SUFFIX,bestswifter.com
@@ -152,7 +148,6 @@ DOMAIN-SUFFIX,cubence.com
 DOMAIN-SUFFIX,cun.ai
 DOMAIN-SUFFIX,cursorai.art
 DOMAIN-SUFFIX,cwapi.vip
-DOMAIN-SUFFIX,dadakeji.com
 DOMAIN-SUFFIX,danchaofan.org
 DOMAIN-SUFFIX,daodunapi.com
 DOMAIN-SUFFIX,dawclaudecode.com
@@ -226,8 +221,6 @@ DOMAIN-SUFFIX,helicone.ai
 DOMAIN-SUFFIX,helpcoder.cc
 DOMAIN-SUFFIX,hezubus.cc
 DOMAIN-SUFFIX,hohoapi.com
-DOMAIN-SUFFIX,holdai.top
-DOMAIN-SUFFIX,holysheep.ai
 DOMAIN-SUFFIX,hongmacc.com
 DOMAIN-SUFFIX,howtoken.net
 DOMAIN-SUFFIX,huahuaapi.com
@@ -255,7 +248,6 @@ DOMAIN-SUFFIX,kkaiapi.com
 DOMAIN-SUFFIX,kksj.org
 DOMAIN-SUFFIX,koozhan.com
 DOMAIN-SUFFIX,koudai.online
-DOMAIN-SUFFIX,kuaipao.pro
 DOMAIN-SUFFIX,kunlun.com
 DOMAIN-SUFFIX,lanyiapi.com
 DOMAIN-SUFFIX,laozhang.ai
@@ -281,7 +273,6 @@ DOMAIN-SUFFIX,makelove.cloud
 DOMAIN-SUFFIX,marting.pro
 DOMAIN-SUFFIX,matchfit.top
 DOMAIN-SUFFIX,matrcode.com
-DOMAIN-SUFFIX,maya.today
 DOMAIN-SUFFIX,maynor1024.live
 DOMAIN-SUFFIX,meai.cloud
 DOMAIN-SUFFIX,megallm.io
@@ -314,7 +305,6 @@ DOMAIN-SUFFIX,nanobanana.com
 DOMAIN-SUFFIX,nbility.ai
 DOMAIN-SUFFIX,nebius.com
 DOMAIN-SUFFIX,nekoapi.com
-DOMAIN-SUFFIX,nekocode.ai
 DOMAIN-SUFFIX,new.bi
 DOMAIN-SUFFIX,newcli.com
 DOMAIN-SUFFIX,nf.video
@@ -333,7 +323,6 @@ DOMAIN-SUFFIX,ogog.ai
 DOMAIN-SUFFIX,ohmygpt.com
 DOMAIN-SUFFIX,omniakey.com
 DOMAIN-SUFFIX,onechats.top
-DOMAIN-SUFFIX,onetoken.one
 DOMAIN-SUFFIX,ope.ai
 DOMAIN-SUFFIX,openai-ch.top
 DOMAIN-SUFFIX,openai-hk.com
@@ -394,6 +383,7 @@ DOMAIN-SUFFIX,sbbbbbbbbb.xyz
 DOMAIN-SUFFIX,sbgpt.site
 DOMAIN-SUFFIX,schyler.top
 DOMAIN-SUFFIX,shadowai.xyz
+DOMAIN-SUFFIX,shannonapi.xyz
 DOMAIN-SUFFIX,shimaiapi.com
 DOMAIN-SUFFIX,sixthsense-llm.com
 DOMAIN-SUFFIX,slack.com
