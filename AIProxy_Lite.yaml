@@ -1,7 +1,7 @@
 # ==================================================================
 # 规则名称: 精选高频第三方 AI API 中转分流规则 (AIProxy_Lite.yaml - Clash 纯海外/免翻分流版)
-# 更新时间: 2026-10-06 01:09:04
-# 包含域名: 484 个高频/多源收录中转站根域名
+# 更新时间: 2026-10-06 23:35:41
+# 包含域名: 487 个高频/多源收录中转站根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Clash / Clash Meta (Mihomo) / Clash Verge / Stash 等
 # 配置方式: rule-providers (behavior: classical)
@@ -29,6 +29,7 @@ payload:
   - DOMAIN-SUFFIX,aabao.top
   - DOMAIN-SUFFIX,agentrouter.org
   - DOMAIN-SUFFIX,ai-router.dev
+  - DOMAIN-SUFFIX,ai8.my
   - DOMAIN-SUFFIX,aiapi-pro.com
   - DOMAIN-SUFFIX,aiapi.world
   - DOMAIN-SUFFIX,aiapify.com
@@ -81,6 +82,7 @@ payload:
   - DOMAIN-SUFFIX,aruhub.com
   - DOMAIN-SUFFIX,atlascloud.ai
   - DOMAIN-SUFFIX,augmunt.com
+  - DOMAIN-SUFFIX,autorouter.io
   - DOMAIN-SUFFIX,b.ai
   - DOMAIN-SUFFIX,bailili.top
   - DOMAIN-SUFFIX,banana.dev
@@ -99,6 +101,7 @@ payload:
   - DOMAIN-SUFFIX,burncloud.com
   - DOMAIN-SUFFIX,buzzai.cc
   - DOMAIN-SUFFIX,bybing.cc
+  - DOMAIN-SUFFIX,byeapi.top
   - DOMAIN-SUFFIX,bytecatcode.org
   - DOMAIN-SUFFIX,bytonsec.com
   - DOMAIN-SUFFIX,callxyq.xyz
@@ -123,6 +126,7 @@ payload:
   - DOMAIN-SUFFIX,cloudflareinsights.com
   - DOMAIN-SUFFIX,code-relay.com
   - DOMAIN-SUFFIX,code0.ai
+  - DOMAIN-SUFFIX,codeagent.cloud
   - DOMAIN-SUFFIX,codebridge.dev
   - DOMAIN-SUFFIX,codecloud.dev
   - DOMAIN-SUFFIX,codeflow.ai
@@ -140,6 +144,7 @@ payload:
   - DOMAIN-SUFFIX,cohere.ai
   - DOMAIN-SUFFIX,comeu.ai
   - DOMAIN-SUFFIX,cooper-api.com
+  - DOMAIN-SUFFIX,corealgos.com
   - DOMAIN-SUFFIX,crazyrouter.com
   - DOMAIN-SUFFIX,crond.dev
   - DOMAIN-SUFFIX,cubence.com
@@ -182,7 +187,6 @@ payload:
   - DOMAIN-SUFFIX,ephone.ai
   - DOMAIN-SUFFIX,ergouzi.life
   - DOMAIN-SUFFIX,fastcode.dev
-  - DOMAIN-SUFFIX,featherless.ai
   - DOMAIN-SUFFIX,fkclaude.xyz
   - DOMAIN-SUFFIX,flashapi.top
   - DOMAIN-SUFFIX,fluapi.com
@@ -210,10 +214,8 @@ payload:
   - DOMAIN-SUFFIX,gptoai.cc
   - DOMAIN-SUFFIX,gptuu.com
   - DOMAIN-SUFFIX,gu28.top
-  - DOMAIN-SUFFIX,guagua.uk
   - DOMAIN-SUFFIX,gueai.com
   - DOMAIN-SUFFIX,guoneiapi.com
-  - DOMAIN-SUFFIX,handsfreeclub.com
   - DOMAIN-SUFFIX,hapiopen.cc
   - DOMAIN-SUFFIX,heilovehei.com
   - DOMAIN-SUFFIX,hejuapi.com
@@ -264,7 +266,6 @@ payload:
   - DOMAIN-SUFFIX,litellm.ai
   - DOMAIN-SUFFIX,llm-all.pro
   - DOMAIN-SUFFIX,lmuai.ai
-  - DOMAIN-SUFFIX,loptu.net
   - DOMAIN-SUFFIX,lqapi.xyz
   - DOMAIN-SUFFIX,luccc.uk
   - DOMAIN-SUFFIX,luminai.cc
@@ -324,6 +325,7 @@ payload:
   - DOMAIN-SUFFIX,ohmygpt.com
   - DOMAIN-SUFFIX,omniakey.com
   - DOMAIN-SUFFIX,onechats.top
+  - DOMAIN-SUFFIX,onetoken.one
   - DOMAIN-SUFFIX,ope.ai
   - DOMAIN-SUFFIX,openai-ch.top
   - DOMAIN-SUFFIX,openai-hk.com
@@ -348,7 +350,6 @@ payload:
   - DOMAIN-SUFFIX,poloai.top
   - DOMAIN-SUFFIX,poloapi.com
   - DOMAIN-SUFFIX,ppio.com
-  - DOMAIN-SUFFIX,prismapi.site
   - DOMAIN-SUFFIX,privnode.com
   - DOMAIN-SUFFIX,proaiapi.tech
   - DOMAIN-SUFFIX,qdrant.tech
@@ -356,6 +357,7 @@ payload:
   - DOMAIN-SUFFIX,qicunshang.com
   - DOMAIN-SUFFIX,qiniu.com
   - DOMAIN-SUFFIX,qinzhiai.com
+  - DOMAIN-SUFFIX,qiuqiutoken.com
   - DOMAIN-SUFFIX,qiyiguo.uk
   - DOMAIN-SUFFIX,qqqrouter.ai
   - DOMAIN-SUFFIX,quickrouter.ai
@@ -363,6 +365,7 @@ payload:
   - DOMAIN-SUFFIX,quya.org
   - DOMAIN-SUFFIX,qweapi.com
   - DOMAIN-SUFFIX,raozheng.top
+  - DOMAIN-SUFFIX,rapi.asia
   - DOMAIN-SUFFIX,rcouyi.com
   - DOMAIN-SUFFIX,relaydance.com
   - DOMAIN-SUFFIX,requesty.ai
@@ -408,7 +411,6 @@ payload:
   - DOMAIN-SUFFIX,timicc.com
   - DOMAIN-SUFFIX,tocodex.com
   - DOMAIN-SUFFIX,together.xyz
-  - DOMAIN-SUFFIX,tokaify.com
   - DOMAIN-SUFFIX,token115.com
   - DOMAIN-SUFFIX,tokenmix.ai
   - DOMAIN-SUFFIX,tokens-forge.com
@@ -447,6 +449,7 @@ payload:
   - DOMAIN-SUFFIX,wenmodel.com
   - DOMAIN-SUFFIX,whatai.cc
   - DOMAIN-SUFFIX,whenreset.app
+  - DOMAIN-SUFFIX,worldbase.ai
   - DOMAIN-SUFFIX,wotos.pro
   - DOMAIN-SUFFIX,wrouter.ai
   - DOMAIN-SUFFIX,wuyinkeji.com
