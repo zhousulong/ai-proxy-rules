@@ -1,7 +1,7 @@
 # ==================================================================
 # 规则名称: 第三方 AI API 中转与代理分流规则 (AIProxy.yaml - Clash 纯海外/免翻分流版)
-# 更新时间: 2026-10-09 00:10:20
-# 包含域名: 1055 个独立中转服务商根域名
+# 更新时间: 2026-10-09 23:50:19
+# 包含域名: 1059 个独立中转服务商根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Clash / Clash Meta (Mihomo) / Clash Verge / Stash 等
 # 配置方式: rule-providers (behavior: classical)
@@ -152,6 +152,7 @@ payload:
   - DOMAIN-SUFFIX,apibest.ai
   - DOMAIN-SUFFIX,apibox.cc
   - DOMAIN-SUFFIX,apichatgpt.top
+  - DOMAIN-SUFFIX,apiclaw.biz
   - DOMAIN-SUFFIX,apicompare.best
   - DOMAIN-SUFFIX,apiddt.com
   - DOMAIN-SUFFIX,apikey.fun
@@ -209,6 +210,7 @@ payload:
   - DOMAIN-SUFFIX,bjhuiqu.net
   - DOMAIN-SUFFIX,bltcy.ai
   - DOMAIN-SUFFIX,bltcy.top
+  - DOMAIN-SUFFIX,bluedoai.com
   - DOMAIN-SUFFIX,boluotoken.com
   - DOMAIN-SUFFIX,bookapi.cc
   - DOMAIN-SUFFIX,boottoken.com
@@ -298,6 +300,7 @@ payload:
   - DOMAIN-SUFFIX,codeworksta.com
   - DOMAIN-SUFFIX,codex2api.com
   - DOMAIN-SUFFIX,codexapis.com
+  - DOMAIN-SUFFIX,codexhot.com
   - DOMAIN-SUFFIX,codexhub.ai
   - DOMAIN-SUFFIX,codextopapi.com
   - DOMAIN-SUFFIX,codexzh.com
@@ -444,7 +447,6 @@ payload:
   - DOMAIN-SUFFIX,gptgod.work
   - DOMAIN-SUFFIX,gptnb.ai
   - DOMAIN-SUFFIX,gptoai.cc
-  - DOMAIN-SUFFIX,gptsapi.net
   - DOMAIN-SUFFIX,gptuu.com
   - DOMAIN-SUFFIX,gravitex.ai
   - DOMAIN-SUFFIX,growupapi.ltd
@@ -675,6 +677,7 @@ payload:
   - DOMAIN-SUFFIX,nextoken.online
   - DOMAIN-SUFFIX,nf.video
   - DOMAIN-SUFFIX,nikoapi.xyz
+  - DOMAIN-SUFFIX,nimblecut.com
   - DOMAIN-SUFFIX,nio.gs
   - DOMAIN-SUFFIX,nionio2026.xyz
   - DOMAIN-SUFFIX,nixapi.com
@@ -763,7 +766,6 @@ payload:
   - DOMAIN-SUFFIX,pomoai.xyz
   - DOMAIN-SUFFIX,ppchat.vip
   - DOMAIN-SUFFIX,ppio.com
-  - DOMAIN-SUFFIX,pptoken.org
   - DOMAIN-SUFFIX,pqh.ai
   - DOMAIN-SUFFIX,prismapi.site
   - DOMAIN-SUFFIX,privnode.com
@@ -824,13 +826,13 @@ payload:
   - DOMAIN-SUFFIX,sbbbbbbbbb.xyz
   - DOMAIN-SUFFIX,sbgpt.site
   - DOMAIN-SUFFIX,schyler.top
+  - DOMAIN-SUFFIX,seedrouter.ai
   - DOMAIN-SUFFIX,selart.cc
   - DOMAIN-SUFFIX,shadowai.xyz
   - DOMAIN-SUFFIX,shannonapi.xyz
   - DOMAIN-SUFFIX,sharehub.club
   - DOMAIN-SUFFIX,shimaiapi.com
   - DOMAIN-SUFFIX,shqbb.com
-  - DOMAIN-SUFFIX,silkapi.com
   - DOMAIN-SUFFIX,sillydream.top
   - DOMAIN-SUFFIX,sixthsense-llm.com
   - DOMAIN-SUFFIX,slack.com
@@ -847,6 +849,7 @@ payload:
   - DOMAIN-SUFFIX,storeapi.one
   - DOMAIN-SUFFIX,straitapi.com
   - DOMAIN-SUFFIX,suanniao.shop
+  - DOMAIN-SUFFIX,suanzhou.top
   - DOMAIN-SUFFIX,sublyx.org
   - DOMAIN-SUFFIX,subrouter.ai
   - DOMAIN-SUFFIX,sucloud.vip
@@ -890,6 +893,7 @@ payload:
   - DOMAIN-SUFFIX,tokenage.ai
   - DOMAIN-SUFFIX,tokenbeat.net
   - DOMAIN-SUFFIX,tokenbox.cloud
+  - DOMAIN-SUFFIX,tokenbuddy.cc
   - DOMAIN-SUFFIX,tokendocker.com
   - DOMAIN-SUFFIX,tokenflux.dev
   - DOMAIN-SUFFIX,tokenfreeperday.com
