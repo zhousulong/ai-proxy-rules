@@ -1,7 +1,7 @@
 # ==================================================================
 # 规则名称: 第三方 AI API 中转与代理分流规则 (AIProxy.list - 纯海外/免翻分流版)
-# 更新时间: 2026-10-09 23:50:19
-# 包含域名: 1059 个独立中转服务商根域名
+# 更新时间: 2026-10-10 23:14:35
+# 包含域名: 1063 个独立中转服务商根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Loon / Surge / Shadowrocket / Clash 等
 # 数据来源聚合:
@@ -131,7 +131,7 @@ DOMAIN-SUFFIX,aleph-alpha.com
 DOMAIN-SUFFIX,allinai7.cloud
 DOMAIN-SUFFIX,allrouter.ai
 DOMAIN-SUFFIX,anpin.ai
-DOMAIN-SUFFIX,antmoo.com
+DOMAIN-SUFFIX,antmoo.cc
 DOMAIN-SUFFIX,anyaigc.ai
 DOMAIN-SUFFIX,anyaigc.com
 DOMAIN-SUFFIX,anyrouter.dev
@@ -446,6 +446,7 @@ DOMAIN-SUFFIX,gptgod.online
 DOMAIN-SUFFIX,gptgod.work
 DOMAIN-SUFFIX,gptnb.ai
 DOMAIN-SUFFIX,gptoai.cc
+DOMAIN-SUFFIX,gptsapi.net
 DOMAIN-SUFFIX,gptuu.com
 DOMAIN-SUFFIX,gravitex.ai
 DOMAIN-SUFFIX,growupapi.ltd
@@ -577,6 +578,7 @@ DOMAIN-SUFFIX,lingyi.ai
 DOMAIN-SUFFIX,linkai.pics
 DOMAIN-SUFFIX,linkapi.ai
 DOMAIN-SUFFIX,linkapi.org
+DOMAIN-SUFFIX,linktoagi.com
 DOMAIN-SUFFIX,linkuai.net
 DOMAIN-SUFFIX,linoroute.com
 DOMAIN-SUFFIX,litellm.ai
@@ -765,6 +767,7 @@ DOMAIN-SUFFIX,poloapi.top
 DOMAIN-SUFFIX,pomoai.xyz
 DOMAIN-SUFFIX,ppchat.vip
 DOMAIN-SUFFIX,ppio.com
+DOMAIN-SUFFIX,pptoken.org
 DOMAIN-SUFFIX,pqh.ai
 DOMAIN-SUFFIX,prismapi.site
 DOMAIN-SUFFIX,privnode.com
@@ -832,6 +835,7 @@ DOMAIN-SUFFIX,shannonapi.xyz
 DOMAIN-SUFFIX,sharehub.club
 DOMAIN-SUFFIX,shimaiapi.com
 DOMAIN-SUFFIX,shqbb.com
+DOMAIN-SUFFIX,silkapi.com
 DOMAIN-SUFFIX,sillydream.top
 DOMAIN-SUFFIX,sixthsense-llm.com
 DOMAIN-SUFFIX,slack.com
