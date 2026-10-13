@@ -1,6 +1,6 @@
 # ==================================================================
 # 规则名称: 第三方 AI API 中转与代理分流规则 (AIProxy.list - 纯海外/免翻分流版)
-# 更新时间: 2026-10-13 01:50:49
+# 更新时间: 2026-10-13 23:38:34
 # 包含域名: 1065 个独立中转服务商根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Loon / Surge / Shadowrocket / Clash 等
@@ -86,6 +86,7 @@ DOMAIN-SUFFIX,aicoding.sh
 DOMAIN-SUFFIX,aicost.xyz
 DOMAIN-SUFFIX,aicso.top
 DOMAIN-SUFFIX,aider.chat
+DOMAIN-SUFFIX,aieania.tech
 DOMAIN-SUFFIX,aierxin.cc
 DOMAIN-SUFFIX,aifamily.vip
 DOMAIN-SUFFIX,aifast.club
@@ -767,7 +768,6 @@ DOMAIN-SUFFIX,poloapi.top
 DOMAIN-SUFFIX,pomoai.xyz
 DOMAIN-SUFFIX,ppchat.vip
 DOMAIN-SUFFIX,ppio.com
-DOMAIN-SUFFIX,pptoken.cc
 DOMAIN-SUFFIX,pqh.ai
 DOMAIN-SUFFIX,prismapi.site
 DOMAIN-SUFFIX,privnode.com
