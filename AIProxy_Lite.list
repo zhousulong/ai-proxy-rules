@@ -1,7 +1,7 @@
 # ==================================================================
 # 规则名称: 精选高频第三方 AI API 中转分流规则 (AIProxy_Lite.list - 纯海外/免翻分流版)
-# 更新时间: 2026-10-14 23:00:45
-# 包含域名: 515 个高频/多源收录中转站根域名
+# 更新时间: 2026-10-15 22:55:44
+# 包含域名: 516 个高频/多源收录中转站根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Loon / Surge / Shadowrocket / Clash 等
 # ==================================================================
@@ -16,7 +16,6 @@ DOMAIN-SUFFIX,4aicode.com
 DOMAIN-SUFFIX,4sapi.ai
 DOMAIN-SUFFIX,4sapi.com
 DOMAIN-SUFFIX,52mx.net
-DOMAIN-SUFFIX,537-ai.net
 DOMAIN-SUFFIX,580ai.net
 DOMAIN-SUFFIX,68886868.xyz
 DOMAIN-SUFFIX,756777.xyz
@@ -143,6 +142,7 @@ DOMAIN-SUFFIX,coderush.dev
 DOMAIN-SUFFIX,codesharp.dev
 DOMAIN-SUFFIX,codesome.ai
 DOMAIN-SUFFIX,codesonline.dev
+DOMAIN-SUFFIX,codesuc.top
 DOMAIN-SUFFIX,codewave.dev
 DOMAIN-SUFFIX,codex2api.com
 DOMAIN-SUFFIX,codexhot.com
@@ -182,6 +182,8 @@ DOMAIN-SUFFIX,digitalocean.com
 DOMAIN-SUFFIX,discordtool.vip
 DOMAIN-SUFFIX,dmxapi.com
 DOMAIN-SUFFIX,dogenet.win
+DOMAIN-SUFFIX,dogrouter.ai
+DOMAIN-SUFFIX,doro.lat
 DOMAIN-SUFFIX,doro.lol
 DOMAIN-SUFFIX,dragoncode.codes
 DOMAIN-SUFFIX,dualseason.com
@@ -195,8 +197,8 @@ DOMAIN-SUFFIX,ekan8.com
 DOMAIN-SUFFIX,ekti.cc
 DOMAIN-SUFFIX,ephone.ai
 DOMAIN-SUFFIX,ergouzi.life
+DOMAIN-SUFFIX,ezapi.site
 DOMAIN-SUFFIX,fastcode.dev
-DOMAIN-SUFFIX,featherless.ai
 DOMAIN-SUFFIX,fkclaude.xyz
 DOMAIN-SUFFIX,flashapi.top
 DOMAIN-SUFFIX,flowith.io
@@ -207,7 +209,6 @@ DOMAIN-SUFFIX,fuka.win
 DOMAIN-SUFFIX,fulitimes.com
 DOMAIN-SUFFIX,fusecode.cc
 DOMAIN-SUFFIX,fyoulink.com
-DOMAIN-SUFFIX,geekai.co
 DOMAIN-SUFFIX,gemai.cc
 DOMAIN-SUFFIX,generalvision.com
 DOMAIN-SUFFIX,getezclaw.com
@@ -230,6 +231,7 @@ DOMAIN-SUFFIX,gu28.top
 DOMAIN-SUFFIX,guagua.uk
 DOMAIN-SUFFIX,gueai.com
 DOMAIN-SUFFIX,guoneiapi.com
+DOMAIN-SUFFIX,handsfreeclub.com
 DOMAIN-SUFFIX,hapiopen.cc
 DOMAIN-SUFFIX,heilovehei.com
 DOMAIN-SUFFIX,hejuapi.com
@@ -412,6 +414,7 @@ DOMAIN-SUFFIX,sixthsense-llm.com
 DOMAIN-SUFFIX,slack.com
 DOMAIN-SUFFIX,soruxgpt.com
 DOMAIN-SUFFIX,sparkcode.top
+DOMAIN-SUFFIX,squarefaceicon.org
 DOMAIN-SUFFIX,sssaiapi.com
 DOMAIN-SUFFIX,suanniao.shop
 DOMAIN-SUFFIX,suanzhou.top
@@ -421,7 +424,6 @@ DOMAIN-SUFFIX,sudocode.chat
 DOMAIN-SUFFIX,sulianai.com
 DOMAIN-SUFFIX,superapi.buzz
 DOMAIN-SUFFIX,switchbase.vip
-DOMAIN-SUFFIX,synterolink.com
 DOMAIN-SUFFIX,tabitoken.com
 DOMAIN-SUFFIX,tbench.ai
 DOMAIN-SUFFIX,teamorouter.com
@@ -433,7 +435,6 @@ DOMAIN-SUFFIX,timesniper.club
 DOMAIN-SUFFIX,timicc.com
 DOMAIN-SUFFIX,tocodex.com
 DOMAIN-SUFFIX,together.xyz
-DOMAIN-SUFFIX,tokaify.com
 DOMAIN-SUFFIX,token115.com
 DOMAIN-SUFFIX,tokenbuddy.cc
 DOMAIN-SUFFIX,tokendos.com
@@ -441,7 +442,6 @@ DOMAIN-SUFFIX,tokenmix.ai
 DOMAIN-SUFFIX,tokens-forge.com
 DOMAIN-SUFFIX,tomchat.fun
 DOMAIN-SUFFIX,tongapi.com
-DOMAIN-SUFFIX,traxnode.com
 DOMAIN-SUFFIX,true-sota.com
 DOMAIN-SUFFIX,tryallai.com
 DOMAIN-SUFFIX,trychroma.com
@@ -520,4 +520,5 @@ DOMAIN-SUFFIX,zhongzhuanjiance.com
 DOMAIN-SUFFIX,zhongzhuantuijian.com
 DOMAIN-SUFFIX,zhtec.xyz
 DOMAIN-SUFFIX,zicc.cc
+DOMAIN-SUFFIX,zivv.pro
 DOMAIN-SUFFIX,zlapi.vip
