@@ -1,12 +1,13 @@
 # ==================================================================
 # 规则名称: 精选高频第三方 AI API 中转分流规则 (AIProxy_Lite.yaml - Clash 纯海外/免翻分流版)
-# 更新时间: 2026-10-17 22:00:01
-# 包含域名: 519 个高频/多源收录中转站根域名
+# 更新时间: 2026-10-18 22:15:08
+# 包含域名: 521 个高频/多源收录中转站根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Clash / Clash Meta (Mihomo) / Clash Verge / Stash 等
 # 配置方式: rule-providers (behavior: classical)
 # ==================================================================
 payload:
+  - DOMAIN-SUFFIX,050602.xyz
   - DOMAIN-SUFFIX,123everything.com
   - DOMAIN-SUFFIX,17nas.com
   - DOMAIN-SUFFIX,1xm.ai
@@ -16,7 +17,6 @@ payload:
   - DOMAIN-SUFFIX,4sapi.ai
   - DOMAIN-SUFFIX,4sapi.com
   - DOMAIN-SUFFIX,52mx.net
-  - DOMAIN-SUFFIX,537-ai.net
   - DOMAIN-SUFFIX,580ai.net
   - DOMAIN-SUFFIX,68886868.xyz
   - DOMAIN-SUFFIX,756777.xyz
@@ -52,7 +52,6 @@ payload:
   - DOMAIN-SUFFIX,aisz.mom
   - DOMAIN-SUFFIX,aitechflux.com
   - DOMAIN-SUFFIX,aixia.tech
-  - DOMAIN-SUFFIX,aixor.dev
   - DOMAIN-SUFFIX,aiyahmm.com
   - DOMAIN-SUFFIX,aizhongzhuan.com
   - DOMAIN-SUFFIX,aleph-alpha.com
@@ -110,6 +109,7 @@ payload:
   - DOMAIN-SUFFIX,bytecatcode.org
   - DOMAIN-SUFFIX,bytonsec.com
   - DOMAIN-SUFFIX,callxyq.xyz
+  - DOMAIN-SUFFIX,catcatcode.com
   - DOMAIN-SUFFIX,cavoti.com
   - DOMAIN-SUFFIX,cc.cd
   - DOMAIN-SUFFIX,ccode.dev
@@ -133,7 +133,6 @@ payload:
   - DOMAIN-SUFFIX,cloudflareinsights.com
   - DOMAIN-SUFFIX,code-relay.com
   - DOMAIN-SUFFIX,code0.ai
-  - DOMAIN-SUFFIX,codeagent.cloud
   - DOMAIN-SUFFIX,codebridge.dev
   - DOMAIN-SUFFIX,codecloud.dev
   - DOMAIN-SUFFIX,codeflow.ai
@@ -154,7 +153,6 @@ payload:
   - DOMAIN-SUFFIX,cooper-api.com
   - DOMAIN-SUFFIX,corealgos.com
   - DOMAIN-SUFFIX,crazyrouter.com
-  - DOMAIN-SUFFIX,crond.dev
   - DOMAIN-SUFFIX,cubence.com
   - DOMAIN-SUFFIX,cun.ai
   - DOMAIN-SUFFIX,cursor-ide.com
@@ -171,6 +169,7 @@ payload:
   - DOMAIN-SUFFIX,deepinfra.com
   - DOMAIN-SUFFIX,deepkey.top
   - DOMAIN-SUFFIX,deepseek.ai
+  - DOMAIN-SUFFIX,derouter.ai
   - DOMAIN-SUFFIX,devai.ai
   - DOMAIN-SUFFIX,devcode.ai
   - DOMAIN-SUFFIX,devfast.ai
@@ -200,6 +199,7 @@ payload:
   - DOMAIN-SUFFIX,ergouzi.life
   - DOMAIN-SUFFIX,ezapi.site
   - DOMAIN-SUFFIX,fastcode.dev
+  - DOMAIN-SUFFIX,featherless.ai
   - DOMAIN-SUFFIX,fkclaude.xyz
   - DOMAIN-SUFFIX,flashapi.top
   - DOMAIN-SUFFIX,flowith.io
@@ -293,10 +293,8 @@ payload:
   - DOMAIN-SUFFIX,luccc.uk
   - DOMAIN-SUFFIX,luminai.cc
   - DOMAIN-SUFFIX,luxerycaseglobal.com
-  - DOMAIN-SUFFIX,lyapunov-vector.com
   - DOMAIN-SUFFIX,magicai.click
   - DOMAIN-SUFFIX,makelove.cloud
-  - DOMAIN-SUFFIX,marting.pro
   - DOMAIN-SUFFIX,matchfit.top
   - DOMAIN-SUFFIX,matrcode.com
   - DOMAIN-SUFFIX,maynor1024.live
@@ -375,6 +373,7 @@ payload:
   - DOMAIN-SUFFIX,poloai.top
   - DOMAIN-SUFFIX,poloapi.com
   - DOMAIN-SUFFIX,ppio.com
+  - DOMAIN-SUFFIX,prismapi.site
   - DOMAIN-SUFFIX,privnode.com
   - DOMAIN-SUFFIX,proaiapi.tech
   - DOMAIN-SUFFIX,qdrant.tech
@@ -432,6 +431,7 @@ payload:
   - DOMAIN-SUFFIX,tbench.ai
   - DOMAIN-SUFFIX,teamorouter.com
   - DOMAIN-SUFFIX,terminal.pub
+  - DOMAIN-SUFFIX,thqllm.com
   - DOMAIN-SUFFIX,tian-shu.org
   - DOMAIN-SUFFIX,tikway.ai
   - DOMAIN-SUFFIX,timebackward.com
@@ -439,7 +439,6 @@ payload:
   - DOMAIN-SUFFIX,timicc.com
   - DOMAIN-SUFFIX,tocodex.com
   - DOMAIN-SUFFIX,together.xyz
-  - DOMAIN-SUFFIX,tokaify.com
   - DOMAIN-SUFFIX,token115.com
   - DOMAIN-SUFFIX,tokenbuddy.cc
   - DOMAIN-SUFFIX,tokendos.com
@@ -447,6 +446,7 @@ payload:
   - DOMAIN-SUFFIX,tokens-forge.com
   - DOMAIN-SUFFIX,tomchat.fun
   - DOMAIN-SUFFIX,tongapi.com
+  - DOMAIN-SUFFIX,traxnode.com
   - DOMAIN-SUFFIX,true-sota.com
   - DOMAIN-SUFFIX,tryallai.com
   - DOMAIN-SUFFIX,trychroma.com
@@ -494,6 +494,7 @@ payload:
   - DOMAIN-SUFFIX,xiaojingai.com
   - DOMAIN-SUFFIX,xiaoma.best
   - DOMAIN-SUFFIX,xiaoruiapi.cc
+  - DOMAIN-SUFFIX,xiaoye.io
   - DOMAIN-SUFFIX,xingtupai.com
   - DOMAIN-SUFFIX,xinsuanai.com
   - DOMAIN-SUFFIX,xixiapi.io
@@ -518,6 +519,7 @@ payload:
   - DOMAIN-SUFFIX,zen-ai.top
   - DOMAIN-SUFFIX,zenmux.ai
   - DOMAIN-SUFFIX,zerocode.sbs
+  - DOMAIN-SUFFIX,zerouter.ai
   - DOMAIN-SUFFIX,zetatechs.com
   - DOMAIN-SUFFIX,zhangsan.yun
   - DOMAIN-SUFFIX,zhongzhuanjiance.com

@@ -1,6 +1,6 @@
 # ==================================================================
 # 规则名称: 第三方 AI API 中转与代理分流规则 (AIProxy.list - 纯海外/免翻分流版)
-# 更新时间: 2026-10-17 22:00:01
+# 更新时间: 2026-10-18 22:15:08
 # 包含域名: 1079 个独立中转服务商根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Loon / Surge / Shadowrocket / Clash 等
@@ -225,6 +225,7 @@ DOMAIN-SUFFIX,bytecatcode.org
 DOMAIN-SUFFIX,bytonsec.com
 DOMAIN-SUFFIX,callxyq.xyz
 DOMAIN-SUFFIX,camel-hub.com
+DOMAIN-SUFFIX,catcatcode.com
 DOMAIN-SUFFIX,catrouter.net
 DOMAIN-SUFFIX,cavoti.com
 DOMAIN-SUFFIX,cc-vibe.com
@@ -242,7 +243,6 @@ DOMAIN-SUFFIX,celestiai.xyz
 DOMAIN-SUFFIX,centos.hk
 DOMAIN-SUFFIX,chaiquan.cc
 DOMAIN-SUFFIX,chancexj.com
-DOMAIN-SUFFIX,chaofanshou.com
 DOMAIN-SUFFIX,chaoye.xyz
 DOMAIN-SUFFIX,chaozhi.chat
 DOMAIN-SUFFIX,character.ai
@@ -271,7 +271,6 @@ DOMAIN-SUFFIX,claude-api.org
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claudeapi.com
 DOMAIN-SUFFIX,claudecn.top
-DOMAIN-SUFFIX,claudecode.love
 DOMAIN-SUFFIX,clawonetoken.com
 DOMAIN-SUFFIX,clawopen.top
 DOMAIN-SUFFIX,clawrouter.com
@@ -779,7 +778,7 @@ DOMAIN-SUFFIX,poloapi.top
 DOMAIN-SUFFIX,pomoai.xyz
 DOMAIN-SUFFIX,ppchat.vip
 DOMAIN-SUFFIX,ppio.com
-DOMAIN-SUFFIX,pptoken.org
+DOMAIN-SUFFIX,pptoken.cc
 DOMAIN-SUFFIX,pqh.ai
 DOMAIN-SUFFIX,prismapi.site
 DOMAIN-SUFFIX,privnode.com
@@ -892,6 +891,7 @@ DOMAIN-SUFFIX,tenzen.ai
 DOMAIN-SUFFIX,terminal.pub
 DOMAIN-SUFFIX,thestocklist.site
 DOMAIN-SUFFIX,thinkai.tv
+DOMAIN-SUFFIX,thqllm.com
 DOMAIN-SUFFIX,tian-shu.org
 DOMAIN-SUFFIX,tiantianai.pro
 DOMAIN-SUFFIX,tikway.ai
