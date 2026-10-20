@@ -1,7 +1,7 @@
 # ==================================================================
 # 规则名称: 第三方 AI API 中转与代理分流规则 (AIProxy.list - 纯海外/免翻分流版)
-# 更新时间: 2026-10-19 23:19:57
-# 包含域名: 1083 个独立中转服务商根域名
+# 更新时间: 2026-10-20 22:57:42
+# 包含域名: 1091 个独立中转服务商根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Loon / Surge / Shadowrocket / Clash 等
 # 数据来源聚合:
@@ -48,6 +48,7 @@ DOMAIN-SUFFIX,88996.cloud
 DOMAIN-SUFFIX,88996api.cloud
 DOMAIN-SUFFIX,88code.org
 DOMAIN-SUFFIX,8s.hk
+DOMAIN-SUFFIX,8stoken.com
 DOMAIN-SUFFIX,8yes.cc
 DOMAIN-SUFFIX,9527code.com
 DOMAIN-SUFFIX,988665.xyz
@@ -99,6 +100,7 @@ DOMAIN-SUFFIX,aihubmix.com
 DOMAIN-SUFFIX,aimlapi.com
 DOMAIN-SUFFIX,aimover.cc
 DOMAIN-SUFFIX,ainx.cc
+DOMAIN-SUFFIX,aionclaw.ai
 DOMAIN-SUFFIX,aiopus.org
 DOMAIN-SUFFIX,aipaibox.com
 DOMAIN-SUFFIX,aipipe.io
@@ -159,6 +161,7 @@ DOMAIN-SUFFIX,apikey.fun
 DOMAIN-SUFFIX,apilio.ai
 DOMAIN-SUFFIX,apiman.ai
 DOMAIN-SUFFIX,apimart.ai
+DOMAIN-SUFFIX,apimodels.app
 DOMAIN-SUFFIX,apinebula.ai
 DOMAIN-SUFFIX,apinoma.com
 DOMAIN-SUFFIX,apipaths.com
@@ -306,6 +309,7 @@ DOMAIN-SUFFIX,codexhot.com
 DOMAIN-SUFFIX,codexhub.ai
 DOMAIN-SUFFIX,codextopapi.com
 DOMAIN-SUFFIX,codexzh.com
+DOMAIN-SUFFIX,codingrouter.ai
 DOMAIN-SUFFIX,codiz.dev
 DOMAIN-SUFFIX,cohere.ai
 DOMAIN-SUFFIX,com.de
@@ -456,6 +460,7 @@ DOMAIN-SUFFIX,gptgod.online
 DOMAIN-SUFFIX,gptgod.work
 DOMAIN-SUFFIX,gptnb.ai
 DOMAIN-SUFFIX,gptoai.cc
+DOMAIN-SUFFIX,gptsapi.net
 DOMAIN-SUFFIX,gptuu.com
 DOMAIN-SUFFIX,gravitex.ai
 DOMAIN-SUFFIX,growupapi.ltd
@@ -646,7 +651,6 @@ DOMAIN-SUFFIX,mintpop.ai
 DOMAIN-SUFFIX,mkeai.com
 DOMAIN-SUFFIX,mmaqq.top
 DOMAIN-SUFFIX,mnapi.com
-DOMAIN-SUFFIX,moacode.org
 DOMAIN-SUFFIX,modal.com
 DOMAIN-SUFFIX,model-gate.cc
 DOMAIN-SUFFIX,model-route.com
@@ -654,6 +658,7 @@ DOMAIN-SUFFIX,model123.ai
 DOMAIN-SUFFIX,modelboxs.com
 DOMAIN-SUFFIX,modelsell.com
 DOMAIN-SUFFIX,moleapi.com
+DOMAIN-SUFFIX,molyeye.com
 DOMAIN-SUFFIX,momapi.link
 DOMAIN-SUFFIX,momoapi.icu
 DOMAIN-SUFFIX,momoapi.xin
@@ -883,6 +888,7 @@ DOMAIN-SUFFIX,synthapi.asia
 DOMAIN-SUFFIX,synthesia.io
 DOMAIN-SUFFIX,t8star.org
 DOMAIN-SUFFIX,tabitoken.com
+DOMAIN-SUFFIX,tacklekey.com
 DOMAIN-SUFFIX,taijiai.online
 DOMAIN-SUFFIX,tangguo.xin
 DOMAIN-SUFFIX,tbench.ai
@@ -931,6 +937,7 @@ DOMAIN-SUFFIX,traxnode.com
 DOMAIN-SUFFIX,true-sota.com
 DOMAIN-SUFFIX,trustmrr.com
 DOMAIN-SUFFIX,tryallai.com
+DOMAIN-SUFFIX,tryallapi.com
 DOMAIN-SUFFIX,trychroma.com
 DOMAIN-SUFFIX,tu-zi.com
 DOMAIN-SUFFIX,tuokeapi.com
@@ -991,6 +998,7 @@ DOMAIN-SUFFIX,whenreset.app
 DOMAIN-SUFFIX,witflow.ai
 DOMAIN-SUFFIX,wlai.vip
 DOMAIN-SUFFIX,wochirou.com
+DOMAIN-SUFFIX,wokey.ai
 DOMAIN-SUFFIX,wolfai.top
 DOMAIN-SUFFIX,worldbase.ai
 DOMAIN-SUFFIX,worldclaw.ai
