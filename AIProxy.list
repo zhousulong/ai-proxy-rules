@@ -1,7 +1,7 @@
 # ==================================================================
 # 规则名称: 第三方 AI API 中转与代理分流规则 (AIProxy.list - 纯海外/免翻分流版)
-# 更新时间: 2026-10-21 23:03:31
-# 包含域名: 1093 个独立中转服务商根域名
+# 更新时间: 2026-10-22 23:00:11
+# 包含域名: 1099 个独立中转服务商根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Loon / Surge / Shadowrocket / Clash 等
 # 数据来源聚合:
@@ -37,7 +37,6 @@ DOMAIN-SUFFIX,4sapi.ai
 DOMAIN-SUFFIX,4sapi.com
 DOMAIN-SUFFIX,4zapi.com
 DOMAIN-SUFFIX,51agentic.com
-DOMAIN-SUFFIX,52mx.net
 DOMAIN-SUFFIX,537-ai.net
 DOMAIN-SUFFIX,555codex.xyz
 DOMAIN-SUFFIX,580ai.net
@@ -202,10 +201,10 @@ DOMAIN-SUFFIX,beecode.cc
 DOMAIN-SUFFIX,beefapi.com
 DOMAIN-SUFFIX,beehears.com
 DOMAIN-SUFFIX,beiji.fun
-DOMAIN-SUFFIX,bestcodex.xyz
 DOMAIN-SUFFIX,bestmax.cc
 DOMAIN-SUFFIX,bestswifter.com
 DOMAIN-SUFFIX,better-gate.com
+DOMAIN-SUFFIX,bettertoken.ai
 DOMAIN-SUFFIX,bianxie.ai
 DOMAIN-SUFFIX,bianxieai.com
 DOMAIN-SUFFIX,bistrocode.online
@@ -246,7 +245,6 @@ DOMAIN-SUFFIX,celestiai.xyz
 DOMAIN-SUFFIX,centos.hk
 DOMAIN-SUFFIX,chaiquan.cc
 DOMAIN-SUFFIX,chancexj.com
-DOMAIN-SUFFIX,chaofanshou.com
 DOMAIN-SUFFIX,chaoye.xyz
 DOMAIN-SUFFIX,chaozhi.chat
 DOMAIN-SUFFIX,character.ai
@@ -381,6 +379,7 @@ DOMAIN-SUFFIX,dpdns.org
 DOMAIN-SUFFIX,dragon3api.com
 DOMAIN-SUFFIX,dragoncode.codes
 DOMAIN-SUFFIX,dreamworld-ai.live
+DOMAIN-SUFFIX,dshapi.icu
 DOMAIN-SUFFIX,dstopology.com
 DOMAIN-SUFFIX,dualseason.com
 DOMAIN-SUFFIX,duckcoding.ai
@@ -434,6 +433,8 @@ DOMAIN-SUFFIX,futureppo.top
 DOMAIN-SUFFIX,fyoulink.com
 DOMAIN-SUFFIX,gancmcs.top
 DOMAIN-SUFFIX,ganfanpen.asia
+DOMAIN-SUFFIX,gcmod.bond
+DOMAIN-SUFFIX,gcmod.online
 DOMAIN-SUFFIX,geekai.co
 DOMAIN-SUFFIX,geekerone.top
 DOMAIN-SUFFIX,gemai.cc
@@ -623,6 +624,7 @@ DOMAIN-SUFFIX,magic666.top
 DOMAIN-SUFFIX,magicai.click
 DOMAIN-SUFFIX,makelove.cloud
 DOMAIN-SUFFIX,makerend.com
+DOMAIN-SUFFIX,makernice.com
 DOMAIN-SUFFIX,manai8.xyz
 DOMAIN-SUFFIX,manbouapi.com
 DOMAIN-SUFFIX,maolaoapi.com
@@ -655,7 +657,9 @@ DOMAIN-SUFFIX,modal.com
 DOMAIN-SUFFIX,model-gate.cc
 DOMAIN-SUFFIX,model-route.com
 DOMAIN-SUFFIX,model123.ai
+DOMAIN-SUFFIX,modelbenchmark.io
 DOMAIN-SUFFIX,modelboxs.com
+DOMAIN-SUFFIX,modelflare.dev
 DOMAIN-SUFFIX,modelsell.com
 DOMAIN-SUFFIX,moleapi.com
 DOMAIN-SUFFIX,molyeye.com
@@ -761,6 +765,7 @@ DOMAIN-SUFFIX,oranexa.top
 DOMAIN-SUFFIX,orange-ai.online
 DOMAIN-SUFFIX,origincoder.com
 DOMAIN-SUFFIX,otterl.com
+DOMAIN-SUFFIX,ourtoken.ai
 DOMAIN-SUFFIX,owlai.tech
 DOMAIN-SUFFIX,oxycode.net
 DOMAIN-SUFFIX,packyapi.ai
@@ -898,7 +903,6 @@ DOMAIN-SUFFIX,teamorouter.com
 DOMAIN-SUFFIX,telegram.me
 DOMAIN-SUFFIX,tenzen.ai
 DOMAIN-SUFFIX,terminal.pub
-DOMAIN-SUFFIX,thestocklist.site
 DOMAIN-SUFFIX,thinkai.tv
 DOMAIN-SUFFIX,thqllm.com
 DOMAIN-SUFFIX,tian-shu.org
@@ -1039,6 +1043,8 @@ DOMAIN-SUFFIX,xinsuanai.com
 DOMAIN-SUFFIX,xinyuanai666.com
 DOMAIN-SUFFIX,xinyunai.cloud
 DOMAIN-SUFFIX,xistree.hk
+DOMAIN-SUFFIX,xisu.ai
+DOMAIN-SUFFIX,xiu.ai
 DOMAIN-SUFFIX,xixiapi.io
 DOMAIN-SUFFIX,xjai.cc
 DOMAIN-SUFFIX,xkj666.top
