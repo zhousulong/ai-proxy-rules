@@ -1,6 +1,6 @@
 # ==================================================================
 # 规则名称: 第三方 AI API 中转与代理分流规则 (AIProxy.list - 纯海外/免翻分流版)
-# 更新时间: 2026-10-22 23:00:11
+# 更新时间: 2026-10-23 22:55:02
 # 包含域名: 1099 个独立中转服务商根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Loon / Surge / Shadowrocket / Clash 等
@@ -201,6 +201,7 @@ DOMAIN-SUFFIX,beecode.cc
 DOMAIN-SUFFIX,beefapi.com
 DOMAIN-SUFFIX,beehears.com
 DOMAIN-SUFFIX,beiji.fun
+DOMAIN-SUFFIX,bestcodex.xyz
 DOMAIN-SUFFIX,bestmax.cc
 DOMAIN-SUFFIX,bestswifter.com
 DOMAIN-SUFFIX,better-gate.com
@@ -463,7 +464,6 @@ DOMAIN-SUFFIX,gptnb.ai
 DOMAIN-SUFFIX,gptoai.cc
 DOMAIN-SUFFIX,gptuu.com
 DOMAIN-SUFFIX,gravitex.ai
-DOMAIN-SUFFIX,growupapi.ltd
 DOMAIN-SUFFIX,gu28.top
 DOMAIN-SUFFIX,guagua.uk
 DOMAIN-SUFFIX,guaihub.com
@@ -868,7 +868,6 @@ DOMAIN-SUFFIX,songsongai.com
 DOMAIN-SUFFIX,soruxgpt.com
 DOMAIN-SUFFIX,sparkcode.top
 DOMAIN-SUFFIX,squarefaceicon.org
-DOMAIN-SUFFIX,ssgoo.net
 DOMAIN-SUFFIX,ssopen.top
 DOMAIN-SUFFIX,sssaiapi.com
 DOMAIN-SUFFIX,sssaicode.com
@@ -903,6 +902,7 @@ DOMAIN-SUFFIX,teamorouter.com
 DOMAIN-SUFFIX,telegram.me
 DOMAIN-SUFFIX,tenzen.ai
 DOMAIN-SUFFIX,terminal.pub
+DOMAIN-SUFFIX,thestocklist.site
 DOMAIN-SUFFIX,thinkai.tv
 DOMAIN-SUFFIX,thqllm.com
 DOMAIN-SUFFIX,tian-shu.org
