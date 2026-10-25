@@ -1,7 +1,7 @@
 # ==================================================================
 # 规则名称: 第三方 AI API 中转与代理分流规则 (AIProxy.yaml - Clash 纯海外/免翻分流版)
-# 更新时间: 2026-10-24 22:16:39
-# 包含域名: 1113 个独立中转服务商根域名
+# 更新时间: 2026-10-25 22:19:38
+# 包含域名: 1116 个独立中转服务商根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Clash / Clash Meta (Mihomo) / Clash Verge / Stash 等
 # 配置方式: rule-providers (behavior: classical)
@@ -148,6 +148,7 @@ payload:
   - DOMAIN-SUFFIX,api-rank.com
   - DOMAIN-SUFFIX,api-route.com
   - DOMAIN-SUFFIX,api-top.com
+  - DOMAIN-SUFFIX,api.foo
   - DOMAIN-SUFFIX,api000.com
   - DOMAIN-SUFFIX,api16z.com
   - DOMAIN-SUFFIX,api2cn.com
@@ -205,6 +206,7 @@ payload:
   - DOMAIN-SUFFIX,beefapi.com
   - DOMAIN-SUFFIX,beehears.com
   - DOMAIN-SUFFIX,beiji.fun
+  - DOMAIN-SUFFIX,bestapirelay.com
   - DOMAIN-SUFFIX,bestcodex.xyz
   - DOMAIN-SUFFIX,bestmax.cc
   - DOMAIN-SUFFIX,bestswifter.com
@@ -298,6 +300,7 @@ payload:
   - DOMAIN-SUFFIX,codebridge.dev
   - DOMAIN-SUFFIX,codecloud.dev
   - DOMAIN-SUFFIX,codeflow.ai
+  - DOMAIN-SUFFIX,codekey.ai
   - DOMAIN-SUFFIX,codelink.dev
   - DOMAIN-SUFFIX,codelypixverse.com
   - DOMAIN-SUFFIX,codeplus.ai
@@ -459,7 +462,6 @@ payload:
   - DOMAIN-SUFFIX,gmicloud.ai
   - DOMAIN-SUFFIX,gogotoken.org
   - DOMAIN-SUFFIX,gongyizhan.com
-  - DOMAIN-SUFFIX,gorouter.app
   - DOMAIN-SUFFIX,gpt-agent.cc
   - DOMAIN-SUFFIX,gpt.ge
   - DOMAIN-SUFFIX,gptapi.us
@@ -559,6 +561,7 @@ payload:
   - DOMAIN-SUFFIX,kantro.dev
   - DOMAIN-SUFFIX,kaopuapi.xyz
   - DOMAIN-SUFFIX,kapibala.asia
+  - DOMAIN-SUFFIX,kelaiapi.cc
   - DOMAIN-SUFFIX,kelaodealics.icu
   - DOMAIN-SUFFIX,keuapi.com
   - DOMAIN-SUFFIX,kfcv50.link
@@ -688,6 +691,7 @@ payload:
   - DOMAIN-SUFFIX,muxueai.pro
   - DOMAIN-SUFFIX,mxdapi.com
   - DOMAIN-SUFFIX,mxyhi.com
+  - DOMAIN-SUFFIX,myflowerai.cc
   - DOMAIN-SUFFIX,myopenai.cc
   - DOMAIN-SUFFIX,mytokens.cc
   - DOMAIN-SUFFIX,mzhcloud.com
@@ -1000,7 +1004,6 @@ payload:
   - DOMAIN-SUFFIX,vxvxvx.top
   - DOMAIN-SUFFIX,wanapis.com
   - DOMAIN-SUFFIX,wangbuxie.xyz
-  - DOMAIN-SUFFIX,wangcai.cloud
   - DOMAIN-SUFFIX,wangxiangai.org
   - DOMAIN-SUFFIX,wanlai.ai
   - DOMAIN-SUFFIX,wanmoapi.com
