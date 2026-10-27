@@ -1,7 +1,7 @@
 # ==================================================================
 # 规则名称: 第三方 AI API 中转与代理分流规则 (AIProxy.yaml - Clash 纯海外/免翻分流版)
-# 更新时间: 2026-10-26 23:36:09
-# 包含域名: 1119 个独立中转服务商根域名
+# 更新时间: 2026-10-27 23:30:52
+# 包含域名: 1129 个独立中转服务商根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Clash / Clash Meta (Mihomo) / Clash Verge / Stash 等
 # 配置方式: rule-providers (behavior: classical)
@@ -59,6 +59,7 @@ payload:
   - DOMAIN-SUFFIX,99kk.cfd
   - DOMAIN-SUFFIX,9m8m.com
   - DOMAIN-SUFFIX,9shadow.com
+  - DOMAIN-SUFFIX,a2agent.me
   - DOMAIN-SUFFIX,a6api.com
   - DOMAIN-SUFFIX,aabao.top
   - DOMAIN-SUFFIX,ablai.top
@@ -227,6 +228,7 @@ payload:
   - DOMAIN-SUFFIX,boxying.com
   - DOMAIN-SUFFIX,buliangrenai.com
   - DOMAIN-SUFFIX,burncloud.com
+  - DOMAIN-SUFFIX,buytoken.work
   - DOMAIN-SUFFIX,buzzai.cc
   - DOMAIN-SUFFIX,bxacc.xyz
   - DOMAIN-SUFFIX,bybing.cc
@@ -397,6 +399,7 @@ payload:
   - DOMAIN-SUFFIX,duckcoding.com
   - DOMAIN-SUFFIX,duiapi.com
   - DOMAIN-SUFFIX,duoapi.xyz
+  - DOMAIN-SUFFIX,dwtl.cc
   - DOMAIN-SUFFIX,dzzi.ai
   - DOMAIN-SUFFIX,dzzi.org
   - DOMAIN-SUFFIX,easy-token.com
@@ -575,6 +578,7 @@ payload:
   - DOMAIN-SUFFIX,koozhan.com
   - DOMAIN-SUFFIX,koudai.online
   - DOMAIN-SUFFIX,krisphyn.cc
+  - DOMAIN-SUFFIX,kuafushe.cc
   - DOMAIN-SUFFIX,kuaipao.ai
   - DOMAIN-SUFFIX,kuaipao.pro
   - DOMAIN-SUFFIX,kudexapi.com
@@ -674,6 +678,7 @@ payload:
   - DOMAIN-SUFFIX,modelboxs.com
   - DOMAIN-SUFFIX,modelflare.dev
   - DOMAIN-SUFFIX,modelsell.com
+  - DOMAIN-SUFFIX,moduck.ai
   - DOMAIN-SUFFIX,moleapi.com
   - DOMAIN-SUFFIX,molyeye.com
   - DOMAIN-SUFFIX,momapi.link
@@ -726,9 +731,11 @@ payload:
   - DOMAIN-SUFFIX,notion.com
   - DOMAIN-SUFFIX,novaapi.ai
   - DOMAIN-SUFFIX,novaeworld.top
+  - DOMAIN-SUFFIX,novaferry.com
   - DOMAIN-SUFFIX,novai.su
   - DOMAIN-SUFFIX,nowcoding.ai
   - DOMAIN-SUFFIX,nttd.ca
+  - DOMAIN-SUFFIX,nuoapi.net
   - DOMAIN-SUFFIX,nuoda.vip
   - DOMAIN-SUFFIX,nuwaflux.com
   - DOMAIN-SUFFIX,nvidia.com
@@ -843,6 +850,7 @@ payload:
   - DOMAIN-SUFFIX,relaybases.com
   - DOMAIN-SUFFIX,relaydance.com
   - DOMAIN-SUFFIX,relayfor.xyz
+  - DOMAIN-SUFFIX,relaynest.top
   - DOMAIN-SUFFIX,requesty.ai
   - DOMAIN-SUFFIX,right.codes
   - DOMAIN-SUFFIX,rightapi.ai
@@ -950,6 +958,7 @@ payload:
   - DOMAIN-SUFFIX,tokeng0d.com
   - DOMAIN-SUFFIX,tokenmarket.cheap
   - DOMAIN-SUFFIX,tokenmix.ai
+  - DOMAIN-SUFFIX,tokenports.cc
   - DOMAIN-SUFFIX,tokenrouter.com
   - DOMAIN-SUFFIX,tokens-forge.com
   - DOMAIN-SUFFIX,tokens868.com
@@ -1059,6 +1068,7 @@ payload:
   - DOMAIN-SUFFIX,xingtupai.com
   - DOMAIN-SUFFIX,xingwan.store
   - DOMAIN-SUFFIX,xingya.site
+  - DOMAIN-SUFFIX,xingyi888.com
   - DOMAIN-SUFFIX,xinsuanai.com
   - DOMAIN-SUFFIX,xinyuanai666.com
   - DOMAIN-SUFFIX,xinyunai.cloud
