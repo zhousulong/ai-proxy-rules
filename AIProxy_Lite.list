@@ -1,11 +1,12 @@
 # ==================================================================
 # 规则名称: 精选高频第三方 AI API 中转分流规则 (AIProxy_Lite.list - 纯海外/免翻分流版)
-# 更新时间: 2026-10-28 23:55:21
-# 包含域名: 555 个高频/多源收录中转站根域名
+# 更新时间: 2026-10-29 23:49:56
+# 包含域名: 567 个高频/多源收录中转站根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Loon / Surge / Shadowrocket / Clash 等
 # ==================================================================
 
+DOMAIN-SUFFIX,050602.xyz
 DOMAIN-SUFFIX,123everything.com
 DOMAIN-SUFFIX,131518.xyz
 DOMAIN-SUFFIX,17nas.com
@@ -16,6 +17,7 @@ DOMAIN-SUFFIX,404-found.uk
 DOMAIN-SUFFIX,4aicode.com
 DOMAIN-SUFFIX,4sapi.ai
 DOMAIN-SUFFIX,4sapi.com
+DOMAIN-SUFFIX,537-ai.net
 DOMAIN-SUFFIX,580ai.net
 DOMAIN-SUFFIX,68886868.xyz
 DOMAIN-SUFFIX,756777.xyz
@@ -29,11 +31,13 @@ DOMAIN-SUFFIX,aabao.top
 DOMAIN-SUFFIX,abnt.it
 DOMAIN-SUFFIX,agentrouter.org
 DOMAIN-SUFFIX,ai-router.dev
+DOMAIN-SUFFIX,ai8.my
 DOMAIN-SUFFIX,aiapi-pro.com
 DOMAIN-SUFFIX,aiapi.world
 DOMAIN-SUFFIX,aiapify.com
 DOMAIN-SUFFIX,aiapipk.com
 DOMAIN-SUFFIX,aiberm.com
+DOMAIN-SUFFIX,aicodemirror.ai
 DOMAIN-SUFFIX,aicodemirror.com
 DOMAIN-SUFFIX,aicoding.sh
 DOMAIN-SUFFIX,aicost.xyz
@@ -49,7 +53,9 @@ DOMAIN-SUFFIX,aisa.one
 DOMAIN-SUFFIX,aisafa.xyz
 DOMAIN-SUFFIX,aispeech.com
 DOMAIN-SUFFIX,aisz.mom
+DOMAIN-SUFFIX,aitechflux.com
 DOMAIN-SUFFIX,aixia.tech
+DOMAIN-SUFFIX,aixor.dev
 DOMAIN-SUFFIX,aiyahmm.com
 DOMAIN-SUFFIX,aizhongzhuan.com
 DOMAIN-SUFFIX,aleph-alpha.com
@@ -76,6 +82,7 @@ DOMAIN-SUFFIX,apinoma.com
 DOMAIN-SUFFIX,apiplus.cloud
 DOMAIN-SUFFIX,apipool.dev
 DOMAIN-SUFFIX,apiporter.com
+DOMAIN-SUFFIX,apirouter.ai
 DOMAIN-SUFFIX,apito.ai
 DOMAIN-SUFFIX,apiyi.com
 DOMAIN-SUFFIX,arilo.id
@@ -89,6 +96,7 @@ DOMAIN-SUFFIX,bailili.top
 DOMAIN-SUFFIX,banana.dev
 DOMAIN-SUFFIX,baobu.xyz
 DOMAIN-SUFFIX,baseten.co
+DOMAIN-SUFFIX,bbww.top
 DOMAIN-SUFFIX,bce.com
 DOMAIN-SUFFIX,bearlab.ai
 DOMAIN-SUFFIX,bestapirelay.com
@@ -119,6 +127,7 @@ DOMAIN-SUFFIX,ccsub.net
 DOMAIN-SUFFIX,cctq.ai
 DOMAIN-SUFFIX,ccwu.cc
 DOMAIN-SUFFIX,centos.hk
+DOMAIN-SUFFIX,chaozhi.chat
 DOMAIN-SUFFIX,chienapi.top
 DOMAIN-SUFFIX,china-ai-arbitrage.xyz
 DOMAIN-SUFFIX,chrouter.com
@@ -158,6 +167,7 @@ DOMAIN-SUFFIX,comeu.ai
 DOMAIN-SUFFIX,cooper-api.com
 DOMAIN-SUFFIX,corealgos.com
 DOMAIN-SUFFIX,crazyrouter.com
+DOMAIN-SUFFIX,crond.dev
 DOMAIN-SUFFIX,cubence.com
 DOMAIN-SUFFIX,cun.ai
 DOMAIN-SUFFIX,cursor-ide.com
@@ -194,6 +204,7 @@ DOMAIN-SUFFIX,dshapi.icu
 DOMAIN-SUFFIX,dualseason.com
 DOMAIN-SUFFIX,duckcoding.com
 DOMAIN-SUFFIX,duiapi.com
+DOMAIN-SUFFIX,dxlingxiapi.top
 DOMAIN-SUFFIX,dzzi.ai
 DOMAIN-SUFFIX,easy-token.com
 DOMAIN-SUFFIX,easyai.host
@@ -210,7 +221,6 @@ DOMAIN-SUFFIX,flashapi.top
 DOMAIN-SUFFIX,flowith.io
 DOMAIN-SUFFIX,fluapi.com
 DOMAIN-SUFFIX,freemodel.dev
-DOMAIN-SUFFIX,frontier-intelligence.tech
 DOMAIN-SUFFIX,fuka.win
 DOMAIN-SUFFIX,fulitimes.com
 DOMAIN-SUFFIX,fusecode.cc
@@ -239,6 +249,7 @@ DOMAIN-SUFFIX,gu28.top
 DOMAIN-SUFFIX,guagua.uk
 DOMAIN-SUFFIX,gueai.com
 DOMAIN-SUFFIX,guoneiapi.com
+DOMAIN-SUFFIX,handsfreeclub.com
 DOMAIN-SUFFIX,hapiopen.cc
 DOMAIN-SUFFIX,heilovehei.com
 DOMAIN-SUFFIX,hejuapi.com
@@ -369,6 +380,7 @@ DOMAIN-SUFFIX,ogog.ai
 DOMAIN-SUFFIX,ohmygpt.com
 DOMAIN-SUFFIX,omniakey.com
 DOMAIN-SUFFIX,onechats.top
+DOMAIN-SUFFIX,ope.ai
 DOMAIN-SUFFIX,openai-ch.top
 DOMAIN-SUFFIX,openai-hk.com
 DOMAIN-SUFFIX,openai-labs.com
@@ -509,6 +521,7 @@ DOMAIN-SUFFIX,weelinking.com
 DOMAIN-SUFFIX,wenmodel.com
 DOMAIN-SUFFIX,whatai.cc
 DOMAIN-SUFFIX,whenreset.app
+DOMAIN-SUFFIX,wlai.vip
 DOMAIN-SUFFIX,wokey.ai
 DOMAIN-SUFFIX,worldbase.ai
 DOMAIN-SUFFIX,wotos.pro
@@ -544,7 +557,6 @@ DOMAIN-SUFFIX,yimingtalk.online
 DOMAIN-SUFFIX,yinli.one
 DOMAIN-SUFFIX,yonshore.com
 DOMAIN-SUFFIX,yuegle.com
-DOMAIN-SUFFIX,yunai.link
 DOMAIN-SUFFIX,yunwu.ai
 DOMAIN-SUFFIX,yunwuai.cc
 DOMAIN-SUFFIX,yyapi.cloud
