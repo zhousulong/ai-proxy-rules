@@ -1,7 +1,7 @@
 # ==================================================================
 # 规则名称: 第三方 AI API 中转与代理分流规则 (AIProxy.yaml - Clash 纯海外/免翻分流版)
-# 更新时间: 2026-10-29 23:49:56
-# 包含域名: 1135 个独立中转服务商根域名
+# 更新时间: 2026-10-30 23:30:16
+# 包含域名: 1137 个独立中转服务商根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Clash / Clash Meta (Mihomo) / Clash Verge / Stash 等
 # 配置方式: rule-providers (behavior: classical)
@@ -107,6 +107,7 @@ payload:
   - DOMAIN-SUFFIX,ainx.cc
   - DOMAIN-SUFFIX,aionclaw.ai
   - DOMAIN-SUFFIX,aiopus.org
+  - DOMAIN-SUFFIX,aipages.dev
   - DOMAIN-SUFFIX,aipaibox.com
   - DOMAIN-SUFFIX,aipipe.io
   - DOMAIN-SUFFIX,aipro.love
@@ -668,6 +669,7 @@ payload:
   - DOMAIN-SUFFIX,mikuapi.org
   - DOMAIN-SUFFIX,millionengine.com
   - DOMAIN-SUFFIX,milvus.io
+  - DOMAIN-SUFFIX,minimax.io
   - DOMAIN-SUFFIX,minitoken.top
   - DOMAIN-SUFFIX,mintpop.ai
   - DOMAIN-SUFFIX,mirgo.top
@@ -717,6 +719,7 @@ payload:
   - DOMAIN-SUFFIX,nebius.com
   - DOMAIN-SUFFIX,nekoapi.com
   - DOMAIN-SUFFIX,nekocode.ai
+  - DOMAIN-SUFFIX,nervgate.com
   - DOMAIN-SUFFIX,new.bi
   - DOMAIN-SUFFIX,newcli.com
   - DOMAIN-SUFFIX,nexahub.one
@@ -826,6 +829,7 @@ payload:
   - DOMAIN-SUFFIX,proaiapi.tech
   - DOMAIN-SUFFIX,prorisehub.com
   - DOMAIN-SUFFIX,pulseneko.com
+  - DOMAIN-SUFFIX,pydaxing.com
   - DOMAIN-SUFFIX,qdrant.tech
   - DOMAIN-SUFFIX,qianfufu.com
   - DOMAIN-SUFFIX,qianweikeji.fun
@@ -959,7 +963,6 @@ payload:
   - DOMAIN-SUFFIX,tokendocker.com
   - DOMAIN-SUFFIX,tokendos.com
   - DOMAIN-SUFFIX,tokenflux.com
-  - DOMAIN-SUFFIX,tokenflux.dev
   - DOMAIN-SUFFIX,tokenfreeperday.com
   - DOMAIN-SUFFIX,tokeng0d.com
   - DOMAIN-SUFFIX,tokenmarket.cheap
@@ -996,7 +999,6 @@ payload:
   - DOMAIN-SUFFIX,uocode.com
   - DOMAIN-SUFFIX,upma.site
   - DOMAIN-SUFFIX,upthos.com
-  - DOMAIN-SUFFIX,urldance.com
   - DOMAIN-SUFFIX,us.ci
   - DOMAIN-SUFFIX,uu6.top
   - DOMAIN-SUFFIX,uuapi.io
