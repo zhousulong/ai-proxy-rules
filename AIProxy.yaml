@@ -1,7 +1,7 @@
 # ==================================================================
 # 规则名称: 第三方 AI API 中转与代理分流规则 (AIProxy.yaml - Clash 纯海外/免翻分流版)
-# 更新时间: 2026-11-06 23:58:44
-# 包含域名: 1222 个独立中转服务商根域名
+# 更新时间: 2026-11-07 23:26:22
+# 包含域名: 1291 个独立中转服务商根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Clash / Clash Meta (Mihomo) / Clash Verge / Stash 等
 # 配置方式: rule-providers (behavior: classical)
@@ -20,6 +20,7 @@ payload:
   - DOMAIN-SUFFIX,0-0.pro
   - DOMAIN-SUFFIX,000328.xyz
   - DOMAIN-SUFFIX,050602.xyz
+  - DOMAIN-SUFFIX,1024token.club
   - DOMAIN-SUFFIX,123api.co
   - DOMAIN-SUFFIX,123everything.com
   - DOMAIN-SUFFIX,12ai.org
@@ -30,6 +31,8 @@ payload:
   - DOMAIN-SUFFIX,17nas.com
   - DOMAIN-SUFFIX,1aicode.space
   - DOMAIN-SUFFIX,1xm.ai
+  - DOMAIN-SUFFIX,27api.com
+  - DOMAIN-SUFFIX,2dou.net
   - DOMAIN-SUFFIX,302.ai
   - DOMAIN-SUFFIX,302ai.com
   - DOMAIN-SUFFIX,34ku.com
@@ -84,6 +87,7 @@ payload:
   - DOMAIN-SUFFIX,aiapipk.com
   - DOMAIN-SUFFIX,aiapis.io
   - DOMAIN-SUFFIX,aiberm.com
+  - DOMAIN-SUFFIX,aiboys.xyz
   - DOMAIN-SUFFIX,aicca.cc
   - DOMAIN-SUFFIX,aicode.us.com
   - DOMAIN-SUFFIX,aicodemirror.ai
@@ -91,20 +95,24 @@ payload:
   - DOMAIN-SUFFIX,aicodewith.ai
   - DOMAIN-SUFFIX,aicodewith.com
   - DOMAIN-SUFFIX,aicoding.sh
+  - DOMAIN-SUFFIX,aicost.me
   - DOMAIN-SUFFIX,aicost.xyz
   - DOMAIN-SUFFIX,aicso.top
   - DOMAIN-SUFFIX,aider.chat
+  - DOMAIN-SUFFIX,aidjapi.top
   - DOMAIN-SUFFIX,aieania.tech
   - DOMAIN-SUFFIX,aierxin.cc
   - DOMAIN-SUFFIX,aifamily.vip
   - DOMAIN-SUFFIX,aifast.club
   - DOMAIN-SUFFIX,aifast.site
+  - DOMAIN-SUFFIX,aifxo.com
   - DOMAIN-SUFFIX,aigc.bar
   - DOMAIN-SUFFIX,aigc2d.com
   - DOMAIN-SUFFIX,aigcbest.top
   - DOMAIN-SUFFIX,aigocode.com
   - DOMAIN-SUFFIX,aigs.cc
   - DOMAIN-SUFFIX,aihao.ai
+  - DOMAIN-SUFFIX,aihub.dog
   - DOMAIN-SUFFIX,aihubmix.com
   - DOMAIN-SUFFIX,aimlapi.com
   - DOMAIN-SUFFIX,aimoniker.top
@@ -117,12 +125,14 @@ payload:
   - DOMAIN-SUFFIX,aipaibox.com
   - DOMAIN-SUFFIX,aipipe.io
   - DOMAIN-SUFFIX,aipm9527.site
+  - DOMAIN-SUFFIX,aiprimetech.io
   - DOMAIN-SUFFIX,aipro.love
   - DOMAIN-SUFFIX,airouter-cdn1.mx
   - DOMAIN-SUFFIX,airouter.cloud
   - DOMAIN-SUFFIX,aisa.one
   - DOMAIN-SUFFIX,aisafa.xyz
   - DOMAIN-SUFFIX,aisharing.top
+  - DOMAIN-SUFFIX,aishenji.top
   - DOMAIN-SUFFIX,aiskt.com
   - DOMAIN-SUFFIX,aisonnet.org
   - DOMAIN-SUFFIX,aispeech.com
@@ -134,9 +144,12 @@ payload:
   - DOMAIN-SUFFIX,aiwts.com
   - DOMAIN-SUFFIX,aiwuje.com
   - DOMAIN-SUFFIX,aixia.tech
+  - DOMAIN-SUFFIX,aixj.vip
+  - DOMAIN-SUFFIX,aixlau.me
   - DOMAIN-SUFFIX,aixor.dev
   - DOMAIN-SUFFIX,aixzapi.top
   - DOMAIN-SUFFIX,aiyahmm.com
+  - DOMAIN-SUFFIX,aiyoyoo.com
   - DOMAIN-SUFFIX,aizhongzhuan.com
   - DOMAIN-SUFFIX,akane.win
   - DOMAIN-SUFFIX,alayanew.com
@@ -156,6 +169,7 @@ payload:
   - DOMAIN-SUFFIX,api-rank.com
   - DOMAIN-SUFFIX,api-route.com
   - DOMAIN-SUFFIX,api-top.com
+  - DOMAIN-SUFFIX,api.airforce
   - DOMAIN-SUFFIX,api.foo
   - DOMAIN-SUFFIX,api000.com
   - DOMAIN-SUFFIX,api16z.com
@@ -167,6 +181,7 @@ payload:
   - DOMAIN-SUFFIX,apibest.ai
   - DOMAIN-SUFFIX,apibox.cc
   - DOMAIN-SUFFIX,apichatgpt.top
+  - DOMAIN-SUFFIX,apiclaude.cc
   - DOMAIN-SUFFIX,apiclaw.biz
   - DOMAIN-SUFFIX,apicompare.best
   - DOMAIN-SUFFIX,apiddt.com
@@ -227,10 +242,12 @@ payload:
   - DOMAIN-SUFFIX,bistrocode.online
   - DOMAIN-SUFFIX,biubiu.best
   - DOMAIN-SUFFIX,bjhuiqu.net
+  - DOMAIN-SUFFIX,blackaicoding.com
   - DOMAIN-SUFFIX,blankapi.com
   - DOMAIN-SUFFIX,bltcy.ai
   - DOMAIN-SUFFIX,bltcy.top
   - DOMAIN-SUFFIX,bluedoai.com
+  - DOMAIN-SUFFIX,boft.ai
   - DOMAIN-SUFFIX,boluotoken.com
   - DOMAIN-SUFFIX,booltoken.com
   - DOMAIN-SUFFIX,boombit.online
@@ -248,6 +265,7 @@ payload:
   - DOMAIN-SUFFIX,byeapi.top
   - DOMAIN-SUFFIX,bytecatcode.org
   - DOMAIN-SUFFIX,bytonsec.com
+  - DOMAIN-SUFFIX,caiyai.com
   - DOMAIN-SUFFIX,callai.one
   - DOMAIN-SUFFIX,callxyq.xyz
   - DOMAIN-SUFFIX,camel-hub.com
@@ -259,6 +277,7 @@ payload:
   - DOMAIN-SUFFIX,cc.cd
   - DOMAIN-SUFFIX,ccapi.us
   - DOMAIN-SUFFIX,ccfly.codes
+  - DOMAIN-SUFFIX,ccgoai.club
   - DOMAIN-SUFFIX,ccll.xyz
   - DOMAIN-SUFFIX,ccmin.ai
   - DOMAIN-SUFFIX,ccode.dev
@@ -274,12 +293,15 @@ payload:
   - DOMAIN-SUFFIX,chaofanshou.com
   - DOMAIN-SUFFIX,chaoye.xyz
   - DOMAIN-SUFFIX,chaozhi.chat
+  - DOMAIN-SUFFIX,chaozhiyuanai.com
   - DOMAIN-SUFFIX,character.ai
   - DOMAIN-SUFFIX,chatboxai.app
   - DOMAIN-SUFFIX,chatgptid.net
   - DOMAIN-SUFFIX,chatnewai.com
   - DOMAIN-SUFFIX,chatshare.one
+  - DOMAIN-SUFFIX,cheapbuddy.cc
   - DOMAIN-SUFFIX,cheaprouter.cc
+  - DOMAIN-SUFFIX,chenhijsdjklasdjkapsojdoa.asia
   - DOMAIN-SUFFIX,chenyiapi.com
   - DOMAIN-SUFFIX,cherry-ai.com
   - DOMAIN-SUFFIX,cherryin.ai
@@ -295,6 +317,7 @@ payload:
   - DOMAIN-SUFFIX,chutes.ai
   - DOMAIN-SUFFIX,chuyel.top
   - DOMAIN-SUFFIX,chybenzun.top
+  - DOMAIN-SUFFIX,cicadas.top
   - DOMAIN-SUFFIX,ciciapi.com
   - DOMAIN-SUFFIX,ciyuan.today
   - DOMAIN-SUFFIX,ciyuanshen.top
@@ -338,6 +361,7 @@ payload:
   - DOMAIN-SUFFIX,codesuc.top
   - DOMAIN-SUFFIX,codeworksta.com
   - DOMAIN-SUFFIX,codex2api.com
+  - DOMAIN-SUFFIX,codex789.com
   - DOMAIN-SUFFIX,codexapis.com
   - DOMAIN-SUFFIX,codexhot.com
   - DOMAIN-SUFFIX,codexhub.ai
@@ -351,6 +375,7 @@ payload:
   - DOMAIN-SUFFIX,comfly.chat
   - DOMAIN-SUFFIX,comfly.org
   - DOMAIN-SUFFIX,comput.chat
+  - DOMAIN-SUFFIX,congmingai.com
   - DOMAIN-SUFFIX,constreet.cc
   - DOMAIN-SUFFIX,cooper-api.com
   - DOMAIN-SUFFIX,copy.ai
@@ -458,6 +483,7 @@ payload:
   - DOMAIN-SUFFIX,flyshop.chat
   - DOMAIN-SUFFIX,fnuu.net
   - DOMAIN-SUFFIX,fontshare.com
+  - DOMAIN-SUFFIX,foropencode.com
   - DOMAIN-SUFFIX,freemodel.dev
   - DOMAIN-SUFFIX,frontier-intelligence.tech
   - DOMAIN-SUFFIX,fuelapi.top
@@ -472,6 +498,7 @@ payload:
   - DOMAIN-SUFFIX,fyoulink.com
   - DOMAIN-SUFFIX,gancmcs.top
   - DOMAIN-SUFFIX,ganfanpen.asia
+  - DOMAIN-SUFFIX,gateai.cc
   - DOMAIN-SUFFIX,gcmod.bond
   - DOMAIN-SUFFIX,gcmod.online
   - DOMAIN-SUFFIX,geekai.co
@@ -490,10 +517,12 @@ payload:
   - DOMAIN-SUFFIX,getunikey.ai
   - DOMAIN-SUFFIX,gguuai.com
   - DOMAIN-SUFFIX,ggwk1.online
+  - DOMAIN-SUFFIX,giaolink.com
   - DOMAIN-SUFFIX,gigazine.net
   - DOMAIN-SUFFIX,ginka.cloud
   - DOMAIN-SUFFIX,globalai.vip
   - DOMAIN-SUFFIX,gmicloud.ai
+  - DOMAIN-SUFFIX,goai.im
   - DOMAIN-SUFFIX,gogotoken.org
   - DOMAIN-SUFFIX,gongyizhan.com
   - DOMAIN-SUFFIX,gpt-agent.cc
@@ -506,6 +535,7 @@ payload:
   - DOMAIN-SUFFIX,gptnb.ai
   - DOMAIN-SUFFIX,gptoai.cc
   - DOMAIN-SUFFIX,gptproto.com
+  - DOMAIN-SUFFIX,gptsapi.net
   - DOMAIN-SUFFIX,gptuu.com
   - DOMAIN-SUFFIX,gravitex.ai
   - DOMAIN-SUFFIX,growupapi.ltd
@@ -538,6 +568,7 @@ payload:
   - DOMAIN-SUFFIX,helpcoder.cc
   - DOMAIN-SUFFIX,henapi.com
   - DOMAIN-SUFFIX,heygen.com
+  - DOMAIN-SUFFIX,heyroute.ai
   - DOMAIN-SUFFIX,hezubus.cc
   - DOMAIN-SUFFIX,hi-code.cc
   - DOMAIN-SUFFIX,hiapi.ai
@@ -562,6 +593,7 @@ payload:
   - DOMAIN-SUFFIX,hyhawang.com
   - DOMAIN-SUFFIX,hyperapi.cc
   - DOMAIN-SUFFIX,hyperbolic.ai
+  - DOMAIN-SUFFIX,hzlinkapi.com
   - DOMAIN-SUFFIX,ibm.com
   - DOMAIN-SUFFIX,icodeeasy.cc
   - DOMAIN-SUFFIX,ifopen.ai
@@ -584,6 +616,7 @@ payload:
   - DOMAIN-SUFFIX,jianzhile.vip
   - DOMAIN-SUFFIX,jiaxinxinyu.com
   - DOMAIN-SUFFIX,jiekou.ai
+  - DOMAIN-SUFFIX,jiji.cc
   - DOMAIN-SUFFIX,jina.ai
   - DOMAIN-SUFFIX,jishuya.net
   - DOMAIN-SUFFIX,jiugx.com
@@ -616,6 +649,7 @@ payload:
   - DOMAIN-SUFFIX,kie.ai
   - DOMAIN-SUFFIX,kiosapi.com
   - DOMAIN-SUFFIX,kisekiremi.moe
+  - DOMAIN-SUFFIX,kissapi.ai
   - DOMAIN-SUFFIX,kivocat.com
   - DOMAIN-SUFFIX,kkaiapi.com
   - DOMAIN-SUFFIX,kkrich.ltd
@@ -629,6 +663,7 @@ payload:
   - DOMAIN-SUFFIX,kuaipao.ai
   - DOMAIN-SUFFIX,kuaipao.pro
   - DOMAIN-SUFFIX,kun8.vip
+  - DOMAIN-SUFFIX,kunkun666.com
   - DOMAIN-SUFFIX,kunlun.com
   - DOMAIN-SUFFIX,lanbuff.app
   - DOMAIN-SUFFIX,lancerouter.ai
@@ -701,6 +736,7 @@ payload:
   - DOMAIN-SUFFIX,maya.today
   - DOMAIN-SUFFIX,maynor1024.live
   - DOMAIN-SUFFIX,mazal.lol
+  - DOMAIN-SUFFIX,mcgrox.top
   - DOMAIN-SUFFIX,meai.cloud
   - DOMAIN-SUFFIX,megallm.io
   - DOMAIN-SUFFIX,megvii.com
@@ -738,6 +774,7 @@ payload:
   - DOMAIN-SUFFIX,moleapi.com
   - DOMAIN-SUFFIX,molyeye.com
   - DOMAIN-SUFFIX,momapi.link
+  - DOMAIN-SUFFIX,momoai.asia
   - DOMAIN-SUFFIX,momoapi.icu
   - DOMAIN-SUFFIX,momoapi.xin
   - DOMAIN-SUFFIX,monotoo.shop
@@ -765,6 +802,7 @@ payload:
   - DOMAIN-SUFFIX,namax.ai
   - DOMAIN-SUFFIX,nano-gpt.com
   - DOMAIN-SUFFIX,nanobanana.com
+  - DOMAIN-SUFFIX,nassaapi.xyz
   - DOMAIN-SUFFIX,nbility.ai
   - DOMAIN-SUFFIX,nbility.dev
   - DOMAIN-SUFFIX,nebius.com
@@ -777,6 +815,7 @@ payload:
   - DOMAIN-SUFFIX,nexarelay.com
   - DOMAIN-SUFFIX,nexaxis.ai
   - DOMAIN-SUFFIX,nexfaro.com
+  - DOMAIN-SUFFIX,nexotoken.net
   - DOMAIN-SUFFIX,nextoken.online
   - DOMAIN-SUFFIX,nextpro.top
   - DOMAIN-SUFFIX,nezhagate.com
@@ -814,6 +853,7 @@ payload:
   - DOMAIN-SUFFIX,ogog.ai
   - DOMAIN-SUFFIX,ohmygpt.com
   - DOMAIN-SUFFIX,omgteam.me
+  - DOMAIN-SUFFIX,ominiapi.top
   - DOMAIN-SUFFIX,ominigate.ai
   - DOMAIN-SUFFIX,omniakey.com
   - DOMAIN-SUFFIX,onallways.top
@@ -853,6 +893,7 @@ payload:
   - DOMAIN-SUFFIX,orcarouter.ai
   - DOMAIN-SUFFIX,origincoder.com
   - DOMAIN-SUFFIX,orkas.ai
+  - DOMAIN-SUFFIX,otokapi.com
   - DOMAIN-SUFFIX,otterl.com
   - DOMAIN-SUFFIX,ourtoken.ai
   - DOMAIN-SUFFIX,owlai.tech
@@ -881,6 +922,7 @@ payload:
   - DOMAIN-SUFFIX,poloapi.com
   - DOMAIN-SUFFIX,poloapi.top
   - DOMAIN-SUFFIX,pomoai.xyz
+  - DOMAIN-SUFFIX,portdan.com
   - DOMAIN-SUFFIX,ppchat.vip
   - DOMAIN-SUFFIX,ppio.com
   - DOMAIN-SUFFIX,pptoken.cc
@@ -917,8 +959,11 @@ payload:
   - DOMAIN-SUFFIX,qystart.top
   - DOMAIN-SUFFIX,qzwlapi.top
   - DOMAIN-SUFFIX,qzz.io
+  - DOMAIN-SUFFIX,r8api.com
+  - DOMAIN-SUFFIX,rainbowgate.top
   - DOMAIN-SUFFIX,raozheng.top
   - DOMAIN-SUFFIX,rapi.asia
+  - DOMAIN-SUFFIX,rayinai.com
   - DOMAIN-SUFFIX,rcouyi.com
   - DOMAIN-SUFFIX,relayapi.app
   - DOMAIN-SUFFIX,relaybases.com
@@ -934,6 +979,7 @@ payload:
   - DOMAIN-SUFFIX,rivora.cc
   - DOMAIN-SUFFIX,rjj.cc
   - DOMAIN-SUFFIX,rkai6.com
+  - DOMAIN-SUFFIX,rkapi.com
   - DOMAIN-SUFFIX,rootflowai.com
   - DOMAIN-SUFFIX,routeeasy.ai
   - DOMAIN-SUFFIX,routescope.ai
@@ -955,11 +1001,14 @@ payload:
   - DOMAIN-SUFFIX,schyler.top
   - DOMAIN-SUFFIX,seedance.nz
   - DOMAIN-SUFFIX,seedrouter.ai
+  - DOMAIN-SUFFIX,seedrouter.net
   - DOMAIN-SUFFIX,selart.cc
   - DOMAIN-SUFFIX,shadowai.xyz
   - DOMAIN-SUFFIX,shannonapi.xyz
+  - DOMAIN-SUFFIX,shanshuiapi.com
   - DOMAIN-SUFFIX,sharehub.club
   - DOMAIN-SUFFIX,shenwenai.com
+  - DOMAIN-SUFFIX,shiguangyun.shop
   - DOMAIN-SUFFIX,shimaiapi.com
   - DOMAIN-SUFFIX,shqbb.com
   - DOMAIN-SUFFIX,shuaiapi.com
@@ -967,10 +1016,12 @@ payload:
   - DOMAIN-SUFFIX,silkapi.com
   - DOMAIN-SUFFIX,sillydream.top
   - DOMAIN-SUFFIX,sixthsense-llm.com
+  - DOMAIN-SUFFIX,sky1818.com
   - DOMAIN-SUFFIX,slack.com
   - DOMAIN-SUFFIX,slomerex.xyz
   - DOMAIN-SUFFIX,smart-agi.com
   - DOMAIN-SUFFIX,socap.top
+  - DOMAIN-SUFFIX,soleapi.com
   - DOMAIN-SUFFIX,songbey.com
   - DOMAIN-SUFFIX,songsongai.com
   - DOMAIN-SUFFIX,soruxgpt.com
@@ -981,6 +1032,7 @@ payload:
   - DOMAIN-SUFFIX,ssopen.top
   - DOMAIN-SUFFIX,sssaiapi.com
   - DOMAIN-SUFFIX,sssaicode.com
+  - DOMAIN-SUFFIX,sssaicodeapi.com
   - DOMAIN-SUFFIX,startapi.top
   - DOMAIN-SUFFIX,storeapi.one
   - DOMAIN-SUFFIX,straitapi.com
@@ -1007,6 +1059,7 @@ payload:
   - DOMAIN-SUFFIX,tacklekey.com
   - DOMAIN-SUFFIX,taijiai.online
   - DOMAIN-SUFFIX,tangguo.xin
+  - DOMAIN-SUFFIX,taomu.xyz
   - DOMAIN-SUFFIX,tbench.ai
   - DOMAIN-SUFFIX,tcdmx.com
   - DOMAIN-SUFFIX,tdyun.ai
@@ -1014,6 +1067,7 @@ payload:
   - DOMAIN-SUFFIX,telegram.me
   - DOMAIN-SUFFIX,tenzen.ai
   - DOMAIN-SUFFIX,terminal.pub
+  - DOMAIN-SUFFIX,testvideo.site
   - DOMAIN-SUFFIX,thestocklist.site
   - DOMAIN-SUFFIX,thinkai.tv
   - DOMAIN-SUFFIX,thqllm.com
@@ -1049,9 +1103,12 @@ payload:
   - DOMAIN-SUFFIX,tokens-forge.com
   - DOMAIN-SUFFIX,tokensmind.ai
   - DOMAIN-SUFFIX,tokensos.net
+  - DOMAIN-SUFFIX,tokone.ai
   - DOMAIN-SUFFIX,tomchat.fun
   - DOMAIN-SUFFIX,tonbirds.com
   - DOMAIN-SUFFIX,tongapi.com
+  - DOMAIN-SUFFIX,tongyuye.com
+  - DOMAIN-SUFFIX,totokens.cc
   - DOMAIN-SUFFIX,traxnode.com
   - DOMAIN-SUFFIX,true-sota.com
   - DOMAIN-SUFFIX,trustmrr.com
@@ -1078,6 +1135,7 @@ payload:
   - DOMAIN-SUFFIX,upma.site
   - DOMAIN-SUFFIX,upthos.com
   - DOMAIN-SUFFIX,us.ci
+  - DOMAIN-SUFFIX,usa0.top
   - DOMAIN-SUFFIX,uu6.top
   - DOMAIN-SUFFIX,uuapi.io
   - DOMAIN-SUFFIX,uuapi.net
@@ -1098,8 +1156,10 @@ payload:
   - DOMAIN-SUFFIX,voxbooster.com
   - DOMAIN-SUFFIX,vsllm.com
   - DOMAIN-SUFFIX,vveai.com
+  - DOMAIN-SUFFIX,vvvox.ink
   - DOMAIN-SUFFIX,vvvv.ee
   - DOMAIN-SUFFIX,vxvxvx.top
+  - DOMAIN-SUFFIX,walkcoding.top
   - DOMAIN-SUFFIX,wanapis.com
   - DOMAIN-SUFFIX,wangbuxie.xyz
   - DOMAIN-SUFFIX,wangcai.cloud
@@ -1118,6 +1178,7 @@ payload:
   - DOMAIN-SUFFIX,whenreset.app
   - DOMAIN-SUFFIX,windhub.cc
   - DOMAIN-SUFFIX,witflow.ai
+  - DOMAIN-SUFFIX,wkkapi.com
   - DOMAIN-SUFFIX,wlai.vip
   - DOMAIN-SUFFIX,wochirou.com
   - DOMAIN-SUFFIX,wokey.ai
@@ -1138,6 +1199,7 @@ payload:
   - DOMAIN-SUFFIX,xclis.ai
   - DOMAIN-SUFFIX,xcode.best
   - DOMAIN-SUFFIX,xeduapi.com
+  - DOMAIN-SUFFIX,xfastapi.ai
   - DOMAIN-SUFFIX,xgapi.top
   - DOMAIN-SUFFIX,xhuoai.com
   - DOMAIN-SUFFIX,xiamiapi.xyz
@@ -1156,11 +1218,13 @@ payload:
   - DOMAIN-SUFFIX,xingya.site
   - DOMAIN-SUFFIX,xingyi888.com
   - DOMAIN-SUFFIX,xinsuanai.com
+  - DOMAIN-SUFFIX,xinx.best
   - DOMAIN-SUFFIX,xinyuanai666.com
   - DOMAIN-SUFFIX,xinyunai.cloud
   - DOMAIN-SUFFIX,xistree.hk
   - DOMAIN-SUFFIX,xisu.ai
   - DOMAIN-SUFFIX,xiu.ai
+  - DOMAIN-SUFFIX,xixiapi.cc
   - DOMAIN-SUFFIX,xixiapi.io
   - DOMAIN-SUFFIX,xjai.cc
   - DOMAIN-SUFFIX,xkj666.top
@@ -1190,6 +1254,7 @@ payload:
   - DOMAIN-SUFFIX,yjs.im
   - DOMAIN-SUFFIX,yomiapi.com
   - DOMAIN-SUFFIX,yonshore.com
+  - DOMAIN-SUFFIX,yostoken.top
   - DOMAIN-SUFFIX,youkies.space
   - DOMAIN-SUFFIX,yousebaby.com
   - DOMAIN-SUFFIX,ytea.top
@@ -1199,6 +1264,8 @@ payload:
   - DOMAIN-SUFFIX,yuli.host
   - DOMAIN-SUFFIX,yunai.chat
   - DOMAIN-SUFFIX,yunai.link
+  - DOMAIN-SUFFIX,yunbay.xyz
+  - DOMAIN-SUFFIX,yundu.lol
   - DOMAIN-SUFFIX,yunfei.best
   - DOMAIN-SUFFIX,yunhe.one
   - DOMAIN-SUFFIX,yunqiao.me
@@ -1221,6 +1288,7 @@ payload:
   - DOMAIN-SUFFIX,zeroshell.top
   - DOMAIN-SUFFIX,zerouter.ai
   - DOMAIN-SUFFIX,zetatechs.com
+  - DOMAIN-SUFFIX,zeusnorun.com
   - DOMAIN-SUFFIX,zexitongxue.com
   - DOMAIN-SUFFIX,zhangsan.cool
   - DOMAIN-SUFFIX,zhangsan.yun
@@ -1233,6 +1301,7 @@ payload:
   - DOMAIN-SUFFIX,zicc.cc
   - DOMAIN-SUFFIX,zipflow.xyz
   - DOMAIN-SUFFIX,zivv.pro
+  - DOMAIN-SUFFIX,zjapi.com
   - DOMAIN-SUFFIX,zlapi.vip
   - DOMAIN-SUFFIX,zwenooo.link
   - DOMAIN-SUFFIX,zxai.work
