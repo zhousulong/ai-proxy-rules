@@ -1,6 +1,6 @@
 # ==================================================================
 # 规则名称: 精选高频第三方 AI API 中转分流规则 (AIProxy_Lite.list - 纯海外/免翻分流版)
-# 更新时间: 2026-11-07 23:26:22
+# 更新时间: 2026-11-08 23:26:57
 # 包含域名: 747 个高频/多源收录中转站根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Loon / Surge / Shadowrocket / Clash 等
@@ -41,7 +41,6 @@ DOMAIN-SUFFIX,abnt.it
 DOMAIN-SUFFIX,agentrouter.org
 DOMAIN-SUFFIX,ai-router.dev
 DOMAIN-SUFFIX,ai8.my
-DOMAIN-SUFFIX,ai98pro.xyz
 DOMAIN-SUFFIX,aiapi-pro.com
 DOMAIN-SUFFIX,aiapi.world
 DOMAIN-SUFFIX,aiapify.com
@@ -61,6 +60,7 @@ DOMAIN-SUFFIX,aigs.cc
 DOMAIN-SUFFIX,aihao.ai
 DOMAIN-SUFFIX,aihub.dog
 DOMAIN-SUFFIX,aihubmix.com
+DOMAIN-SUFFIX,aiinide.com
 DOMAIN-SUFFIX,aimlapi.com
 DOMAIN-SUFFIX,aimoniker.top
 DOMAIN-SUFFIX,aimover.cc
@@ -74,7 +74,6 @@ DOMAIN-SUFFIX,aisafa.xyz
 DOMAIN-SUFFIX,aishenji.top
 DOMAIN-SUFFIX,aispeech.com
 DOMAIN-SUFFIX,aisz.mom
-DOMAIN-SUFFIX,aitechflux.com
 DOMAIN-SUFFIX,aiwts.com
 DOMAIN-SUFFIX,aixia.tech
 DOMAIN-SUFFIX,aixj.vip
@@ -405,6 +404,7 @@ DOMAIN-SUFFIX,lukyface.com
 DOMAIN-SUFFIX,luminai.cc
 DOMAIN-SUFFIX,luxerycaseglobal.com
 DOMAIN-SUFFIX,lyapunov-vector.com
+DOMAIN-SUFFIX,m7ai.com
 DOMAIN-SUFFIX,magicai.click
 DOMAIN-SUFFIX,makelove.cloud
 DOMAIN-SUFFIX,makernice.com
@@ -459,7 +459,6 @@ DOMAIN-SUFFIX,nassaapi.xyz
 DOMAIN-SUFFIX,nbility.ai
 DOMAIN-SUFFIX,nebius.com
 DOMAIN-SUFFIX,nekoapi.com
-DOMAIN-SUFFIX,nekocode.ai
 DOMAIN-SUFFIX,nervgate.com
 DOMAIN-SUFFIX,new.bi
 DOMAIN-SUFFIX,newcli.com
@@ -550,7 +549,6 @@ DOMAIN-SUFFIX,qystart.top
 DOMAIN-SUFFIX,r8api.com
 DOMAIN-SUFFIX,rainbowgate.top
 DOMAIN-SUFFIX,raozheng.top
-DOMAIN-SUFFIX,rapi.asia
 DOMAIN-SUFFIX,rayinai.com
 DOMAIN-SUFFIX,rcouyi.com
 DOMAIN-SUFFIX,relaydance.com
@@ -563,6 +561,7 @@ DOMAIN-SUFFIX,rivora.cc
 DOMAIN-SUFFIX,rjj.cc
 DOMAIN-SUFFIX,rkapi.com
 DOMAIN-SUFFIX,rootflowai.com
+DOMAIN-SUFFIX,routemux.com
 DOMAIN-SUFFIX,routescope.ai
 DOMAIN-SUFFIX,rtoc.cc
 DOMAIN-SUFFIX,runapi.co
@@ -606,6 +605,7 @@ DOMAIN-SUFFIX,sulianai.com
 DOMAIN-SUFFIX,superapi.buzz
 DOMAIN-SUFFIX,supercodes.vip
 DOMAIN-SUFFIX,switchbase.vip
+DOMAIN-SUFFIX,sylu.cc
 DOMAIN-SUFFIX,synterolink.com
 DOMAIN-SUFFIX,tabitoken.com
 DOMAIN-SUFFIX,taomu.xyz

@@ -1,7 +1,7 @@
 # ==================================================================
 # 规则名称: 第三方 AI API 中转与代理分流规则 (AIProxy.yaml - Clash 纯海外/免翻分流版)
-# 更新时间: 2026-11-07 23:26:22
-# 包含域名: 1291 个独立中转服务商根域名
+# 更新时间: 2026-11-08 23:26:57
+# 包含域名: 1293 个独立中转服务商根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Clash / Clash Meta (Mihomo) / Clash Verge / Stash 等
 # 配置方式: rule-providers (behavior: classical)
@@ -114,6 +114,7 @@ payload:
   - DOMAIN-SUFFIX,aihao.ai
   - DOMAIN-SUFFIX,aihub.dog
   - DOMAIN-SUFFIX,aihubmix.com
+  - DOMAIN-SUFFIX,aiinide.com
   - DOMAIN-SUFFIX,aimlapi.com
   - DOMAIN-SUFFIX,aimoniker.top
   - DOMAIN-SUFFIX,aimover.cc
@@ -535,7 +536,6 @@ payload:
   - DOMAIN-SUFFIX,gptnb.ai
   - DOMAIN-SUFFIX,gptoai.cc
   - DOMAIN-SUFFIX,gptproto.com
-  - DOMAIN-SUFFIX,gptsapi.net
   - DOMAIN-SUFFIX,gptuu.com
   - DOMAIN-SUFFIX,gravitex.ai
   - DOMAIN-SUFFIX,growupapi.ltd
@@ -982,6 +982,7 @@ payload:
   - DOMAIN-SUFFIX,rkapi.com
   - DOMAIN-SUFFIX,rootflowai.com
   - DOMAIN-SUFFIX,routeeasy.ai
+  - DOMAIN-SUFFIX,routemux.com
   - DOMAIN-SUFFIX,routescope.ai
   - DOMAIN-SUFFIX,rsiai.net
   - DOMAIN-SUFFIX,rsupai.top
@@ -1051,6 +1052,7 @@ payload:
   - DOMAIN-SUFFIX,supercodes.vip
   - DOMAIN-SUFFIX,supxh.xin
   - DOMAIN-SUFFIX,switchbase.vip
+  - DOMAIN-SUFFIX,sylu.cc
   - DOMAIN-SUFFIX,synterolink.com
   - DOMAIN-SUFFIX,synthapi.asia
   - DOMAIN-SUFFIX,synthesia.io
