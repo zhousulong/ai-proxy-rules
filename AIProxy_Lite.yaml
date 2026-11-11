@@ -1,7 +1,7 @@
 # ==================================================================
 # 规则名称: 精选高频第三方 AI API 中转分流规则 (AIProxy_Lite.yaml - Clash 纯海外/免翻分流版)
-# 更新时间: 2026-11-10 02:34:16
-# 包含域名: 750 个高频/多源收录中转站根域名
+# 更新时间: 2026-11-11 00:27:20
+# 包含域名: 755 个高频/多源收录中转站根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Clash / Clash Meta (Mihomo) / Clash Verge / Stash 等
 # 配置方式: rule-providers (behavior: classical)
@@ -41,6 +41,7 @@ payload:
   - DOMAIN-SUFFIX,abnt.it
   - DOMAIN-SUFFIX,agentrouter.org
   - DOMAIN-SUFFIX,ai-router.dev
+  - DOMAIN-SUFFIX,ai2059.com
   - DOMAIN-SUFFIX,ai8.my
   - DOMAIN-SUFFIX,aiapi-pro.com
   - DOMAIN-SUFFIX,aiapi.world
@@ -268,7 +269,6 @@ payload:
   - DOMAIN-SUFFIX,ezapi.site
   - DOMAIN-SUFFIX,factory.pub
   - DOMAIN-SUFFIX,fastaitoken.com
-  - DOMAIN-SUFFIX,featherless.ai
   - DOMAIN-SUFFIX,fhl.mom
   - DOMAIN-SUFFIX,fkclaude.xyz
   - DOMAIN-SUFFIX,flashapi.top
@@ -282,6 +282,7 @@ payload:
   - DOMAIN-SUFFIX,fusecode.cc
   - DOMAIN-SUFFIX,fyoulink.com
   - DOMAIN-SUFFIX,gateai.cc
+  - DOMAIN-SUFFIX,gcmod.bond
   - DOMAIN-SUFFIX,gcmod.online
   - DOMAIN-SUFFIX,geekai.co
   - DOMAIN-SUFFIX,gemai.cc
@@ -491,6 +492,7 @@ payload:
   - DOMAIN-SUFFIX,ominigate.ai
   - DOMAIN-SUFFIX,omniakey.com
   - DOMAIN-SUFFIX,onechats.top
+  - DOMAIN-SUFFIX,onetoken.one
   - DOMAIN-SUFFIX,ooioo.work
   - DOMAIN-SUFFIX,ope.ai
   - DOMAIN-SUFFIX,openai-ch.top
@@ -537,6 +539,7 @@ payload:
   - DOMAIN-SUFFIX,qianweikeji.fun
   - DOMAIN-SUFFIX,qianxing.pro
   - DOMAIN-SUFFIX,qicunshang.com
+  - DOMAIN-SUFFIX,qingliu666.com
   - DOMAIN-SUFFIX,qiniu.com
   - DOMAIN-SUFFIX,qinzhiai.com
   - DOMAIN-SUFFIX,qiuqiutoken.net
@@ -646,6 +649,7 @@ payload:
   - DOMAIN-SUFFIX,uiuihao.com
   - DOMAIN-SUFFIX,umapis.com
   - DOMAIN-SUFFIX,umiluxury.com
+  - DOMAIN-SUFFIX,uncensoredlabs.dev
   - DOMAIN-SUFFIX,undyingapi.com
   - DOMAIN-SUFFIX,uniapi.ai
   - DOMAIN-SUFFIX,unity2.ai
@@ -689,6 +693,7 @@ payload:
   - DOMAIN-SUFFIX,x-aio.com
   - DOMAIN-SUFFIX,x-llm.net
   - DOMAIN-SUFFIX,xcode.best
+  - DOMAIN-SUFFIX,xcoff.ee
   - DOMAIN-SUFFIX,xeduapi.com
   - DOMAIN-SUFFIX,xfastapi.ai
   - DOMAIN-SUFFIX,xiamiapi.xyz

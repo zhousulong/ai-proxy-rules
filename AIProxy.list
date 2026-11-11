@@ -1,7 +1,7 @@
 # ==================================================================
 # 规则名称: 第三方 AI API 中转与代理分流规则 (AIProxy.list - 纯海外/免翻分流版)
-# 更新时间: 2026-11-10 02:34:16
-# 包含域名: 1298 个独立中转服务商根域名
+# 更新时间: 2026-11-11 00:27:20
+# 包含域名: 1303 个独立中转服务商根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Loon / Surge / Shadowrocket / Clash 等
 # 数据来源聚合:
@@ -76,6 +76,7 @@ DOMAIN-SUFFIX,ai-one.vip
 DOMAIN-SUFFIX,ai-router.dev
 DOMAIN-SUFFIX,ai-yyds.com
 DOMAIN-SUFFIX,ai18n.chat
+DOMAIN-SUFFIX,ai2059.com
 DOMAIN-SUFFIX,ai8.my
 DOMAIN-SUFFIX,ai98pro.xyz
 DOMAIN-SUFFIX,aiaiai001.com
@@ -827,6 +828,7 @@ DOMAIN-SUFFIX,nikoapi.xyz
 DOMAIN-SUFFIX,nimblecut.com
 DOMAIN-SUFFIX,nio.gs
 DOMAIN-SUFFIX,nionio2026.xyz
+DOMAIN-SUFFIX,nitrorouter.com
 DOMAIN-SUFFIX,nixapi.com
 DOMAIN-SUFFIX,nloli.xyz
 DOMAIN-SUFFIX,nmyh.cc
@@ -944,6 +946,7 @@ DOMAIN-SUFFIX,qianxing.pro
 DOMAIN-SUFFIX,qianye.host
 DOMAIN-SUFFIX,qicunshang.com
 DOMAIN-SUFFIX,qile.chat
+DOMAIN-SUFFIX,qingliu666.com
 DOMAIN-SUFFIX,qingyuntop.top
 DOMAIN-SUFFIX,qiniu.com
 DOMAIN-SUFFIX,qinzhiai.com
@@ -1129,6 +1132,7 @@ DOMAIN-SUFFIX,uiuiapi.com
 DOMAIN-SUFFIX,uiuihao.com
 DOMAIN-SUFFIX,umapis.com
 DOMAIN-SUFFIX,umiluxury.com
+DOMAIN-SUFFIX,uncensoredlabs.dev
 DOMAIN-SUFFIX,undyingapi.com
 DOMAIN-SUFFIX,uniapi.ai
 DOMAIN-SUFFIX,unifiedapi.cloud
@@ -1203,6 +1207,7 @@ DOMAIN-SUFFIX,xag-api.com
 DOMAIN-SUFFIX,xcdw.us
 DOMAIN-SUFFIX,xclis.ai
 DOMAIN-SUFFIX,xcode.best
+DOMAIN-SUFFIX,xcoff.ee
 DOMAIN-SUFFIX,xeduapi.com
 DOMAIN-SUFFIX,xfastapi.ai
 DOMAIN-SUFFIX,xgapi.top
