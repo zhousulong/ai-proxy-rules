@@ -1,6 +1,6 @@
 # ==================================================================
 # 规则名称: 第三方 AI API 中转与代理分流规则 (AIProxy.list - 纯海外/免翻分流版)
-# 更新时间: 2026-11-11 00:27:20
+# 更新时间: 2026-11-12 01:49:27
 # 包含域名: 1303 个独立中转服务商根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Loon / Surge / Shadowrocket / Clash 等
@@ -536,7 +536,6 @@ DOMAIN-SUFFIX,gptgod.work
 DOMAIN-SUFFIX,gptnb.ai
 DOMAIN-SUFFIX,gptoai.cc
 DOMAIN-SUFFIX,gptproto.com
-DOMAIN-SUFFIX,gptsapi.net
 DOMAIN-SUFFIX,gptuu.com
 DOMAIN-SUFFIX,gravitex.ai
 DOMAIN-SUFFIX,growupapi.ltd
@@ -614,6 +613,7 @@ DOMAIN-SUFFIX,jasper.ai
 DOMAIN-SUFFIX,jdcloud.com
 DOMAIN-SUFFIX,jeniya.chat
 DOMAIN-SUFFIX,jeniya.top
+DOMAIN-SUFFIX,jetapi.icu
 DOMAIN-SUFFIX,jianzhile.vip
 DOMAIN-SUFFIX,jiaxinxinyu.com
 DOMAIN-SUFFIX,jiekou.ai
@@ -651,7 +651,6 @@ DOMAIN-SUFFIX,kg-api.cloud
 DOMAIN-SUFFIX,kie.ai
 DOMAIN-SUFFIX,kiosapi.com
 DOMAIN-SUFFIX,kisekiremi.moe
-DOMAIN-SUFFIX,kissapi.ai
 DOMAIN-SUFFIX,kivocat.com
 DOMAIN-SUFFIX,kkaiapi.com
 DOMAIN-SUFFIX,kkrich.ltd
@@ -1097,6 +1096,7 @@ DOMAIN-SUFFIX,token173.com
 DOMAIN-SUFFIX,tokenage.ai
 DOMAIN-SUFFIX,tokenbox.cloud
 DOMAIN-SUFFIX,tokenbuddy.cc
+DOMAIN-SUFFIX,tokencamel.com
 DOMAIN-SUFFIX,tokencloud.ai
 DOMAIN-SUFFIX,tokendocker.com
 DOMAIN-SUFFIX,tokendos.com
