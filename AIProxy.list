@@ -1,7 +1,7 @@
 # ==================================================================
 # 规则名称: 第三方 AI API 中转与代理分流规则 (AIProxy.list - 纯海外/免翻分流版)
-# 更新时间: 2026-11-14 00:40:55
-# 包含域名: 1307 个独立中转服务商根域名
+# 更新时间: 2026-11-14 23:39:49
+# 包含域名: 1306 个独立中转服务商根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Loon / Surge / Shadowrocket / Clash 等
 # 数据来源聚合:
@@ -165,6 +165,7 @@ DOMAIN-SUFFIX,anyaigc.com
 DOMAIN-SUFFIX,anyrouter.dev
 DOMAIN-SUFFIX,anyrouter.top
 DOMAIN-SUFFIX,anytokens.cc
+DOMAIN-SUFFIX,apaiai.com
 DOMAIN-SUFFIX,api-hub.asia
 DOMAIN-SUFFIX,api-models.com
 DOMAIN-SUFFIX,api-rank.com
@@ -653,7 +654,6 @@ DOMAIN-SUFFIX,kg-api.cloud
 DOMAIN-SUFFIX,kie.ai
 DOMAIN-SUFFIX,kiosapi.com
 DOMAIN-SUFFIX,kisekiremi.moe
-DOMAIN-SUFFIX,kissapi.ai
 DOMAIN-SUFFIX,kivocat.com
 DOMAIN-SUFFIX,kkaiapi.com
 DOMAIN-SUFFIX,kkrich.ltd
@@ -1138,7 +1138,6 @@ DOMAIN-SUFFIX,umiluxury.com
 DOMAIN-SUFFIX,uncensoredlabs.dev
 DOMAIN-SUFFIX,undyingapi.com
 DOMAIN-SUFFIX,uniapi.ai
-DOMAIN-SUFFIX,unifiedapi.cloud
 DOMAIN-SUFFIX,uniqueding.xyz
 DOMAIN-SUFFIX,unity2.ai
 DOMAIN-SUFFIX,unorouter.ai
