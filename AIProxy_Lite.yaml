@@ -1,7 +1,7 @@
 # ==================================================================
 # 规则名称: 精选高频第三方 AI API 中转分流规则 (AIProxy_Lite.yaml - Clash 纯海外/免翻分流版)
-# 更新时间: 2026-11-14 23:39:49
-# 包含域名: 762 个高频/多源收录中转站根域名
+# 更新时间: 2026-11-15 23:46:57
+# 包含域名: 768 个高频/多源收录中转站根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Clash / Clash Meta (Mihomo) / Clash Verge / Stash 等
 # 配置方式: rule-providers (behavior: classical)
@@ -36,6 +36,7 @@ payload:
   - DOMAIN-SUFFIX,988665.xyz
   - DOMAIN-SUFFIX,999554.xyz
   - DOMAIN-SUFFIX,9m8m.com
+  - DOMAIN-SUFFIX,a6api.com
   - DOMAIN-SUFFIX,a6api.vip
   - DOMAIN-SUFFIX,aabao.top
   - DOMAIN-SUFFIX,abnt.it
@@ -50,6 +51,7 @@ payload:
   - DOMAIN-SUFFIX,aiapipk.com
   - DOMAIN-SUFFIX,aiberm.com
   - DOMAIN-SUFFIX,aiboys.xyz
+  - DOMAIN-SUFFIX,aicentos.com
   - DOMAIN-SUFFIX,aicodemirror.ai
   - DOMAIN-SUFFIX,aicodemirror.com
   - DOMAIN-SUFFIX,aicodewith.ai
@@ -84,7 +86,6 @@ payload:
   - DOMAIN-SUFFIX,aixlau.me
   - DOMAIN-SUFFIX,aixor.dev
   - DOMAIN-SUFFIX,aiyahmm.com
-  - DOMAIN-SUFFIX,aiyoyoo.com
   - DOMAIN-SUFFIX,aizhongzhuan.com
   - DOMAIN-SUFFIX,aleph-alpha.com
   - DOMAIN-SUFFIX,allrouter.ai
@@ -115,6 +116,7 @@ payload:
   - DOMAIN-SUFFIX,apiplus.cloud
   - DOMAIN-SUFFIX,apipool.dev
   - DOMAIN-SUFFIX,apiporter.com
+  - DOMAIN-SUFFIX,apirouter.ai
   - DOMAIN-SUFFIX,apito.ai
   - DOMAIN-SUFFIX,apiyi.com
   - DOMAIN-SUFFIX,arilo.id
@@ -280,6 +282,7 @@ payload:
   - DOMAIN-SUFFIX,foropencode.com
   - DOMAIN-SUFFIX,freemodel.dev
   - DOMAIN-SUFFIX,frontier-intelligence.tech
+  - DOMAIN-SUFFIX,fuckyou.one
   - DOMAIN-SUFFIX,fuka.win
   - DOMAIN-SUFFIX,fulitimes.com
   - DOMAIN-SUFFIX,fusecode.cc
@@ -538,6 +541,7 @@ payload:
   - DOMAIN-SUFFIX,prismapi.site
   - DOMAIN-SUFFIX,privnode.com
   - DOMAIN-SUFFIX,proaiapi.tech
+  - DOMAIN-SUFFIX,puff.win
   - DOMAIN-SUFFIX,pydaxing.com
   - DOMAIN-SUFFIX,qdrant.tech
   - DOMAIN-SUFFIX,qianweikeji.fun
@@ -590,6 +594,7 @@ payload:
   - DOMAIN-SUFFIX,shimaiapi.com
   - DOMAIN-SUFFIX,shqbb.com
   - DOMAIN-SUFFIX,shuaiapi.com
+  - DOMAIN-SUFFIX,shuliuyun.com
   - DOMAIN-SUFFIX,sillydream.top
   - DOMAIN-SUFFIX,sixthsense-llm.com
   - DOMAIN-SUFFIX,sky1818.com
@@ -733,6 +738,7 @@ payload:
   - DOMAIN-SUFFIX,yibuapi.com
   - DOMAIN-SUFFIX,yimingtalk.online
   - DOMAIN-SUFFIX,yinli.one
+  - DOMAIN-SUFFIX,yisama.asia
   - DOMAIN-SUFFIX,yjs.im
   - DOMAIN-SUFFIX,yomiapi.com
   - DOMAIN-SUFFIX,yonshore.com
