@@ -1,16 +1,16 @@
 # ==================================================================
 # 规则名称: 精选高频第三方 AI API 中转分流规则 (AIProxy_Lite.yaml - Clash 纯海外/免翻分流版)
-# 更新时间: 2026-11-18 02:06:17
-# 包含域名: 731 个高频/多源收录中转站根域名
+# 更新时间: 2026-11-19 01:44:03
+# 包含域名: 736 个高频/多源收录中转站根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Clash / Clash Meta (Mihomo) / Clash Verge / Stash 等
 # 配置方式: rule-providers (behavior: classical)
 # ==================================================================
 payload:
-  - DOMAIN-SUFFIX,1024token.club
   - DOMAIN-SUFFIX,12ai.org
   - DOMAIN-SUFFIX,131518.xyz
   - DOMAIN-SUFFIX,147ai.com
+  - DOMAIN-SUFFIX,27api.com
   - DOMAIN-SUFFIX,2dou.net
   - DOMAIN-SUFFIX,302.ai
   - DOMAIN-SUFFIX,36niu.com
@@ -109,7 +109,6 @@ payload:
   - DOMAIN-SUFFIX,apiplus.cloud
   - DOMAIN-SUFFIX,apipool.dev
   - DOMAIN-SUFFIX,apiporter.com
-  - DOMAIN-SUFFIX,apirouter.ai
   - DOMAIN-SUFFIX,apito.ai
   - DOMAIN-SUFFIX,apiyi.com
   - DOMAIN-SUFFIX,arilo.id
@@ -123,6 +122,8 @@ payload:
   - DOMAIN-SUFFIX,banana.dev
   - DOMAIN-SUFFIX,baobu.xyz
   - DOMAIN-SUFFIX,baseten.co
+  - DOMAIN-SUFFIX,bayunzi.shop
+  - DOMAIN-SUFFIX,bblabu.ai
   - DOMAIN-SUFFIX,bbww.top
   - DOMAIN-SUFFIX,bearlab.ai
   - DOMAIN-SUFFIX,beiluoxi.xyz
@@ -258,7 +259,6 @@ payload:
   - DOMAIN-SUFFIX,fastaitoken.com
   - DOMAIN-SUFFIX,featherless.ai
   - DOMAIN-SUFFIX,fhl.mom
-  - DOMAIN-SUFFIX,fkclaude.xyz
   - DOMAIN-SUFFIX,flashapi.top
   - DOMAIN-SUFFIX,flowith.io
   - DOMAIN-SUFFIX,fluapi.com
@@ -274,6 +274,7 @@ payload:
   - DOMAIN-SUFFIX,gcmod.bond
   - DOMAIN-SUFFIX,gcmod.online
   - DOMAIN-SUFFIX,geekai.co
+  - DOMAIN-SUFFIX,gemai.cc
   - DOMAIN-SUFFIX,generalvision.com
   - DOMAIN-SUFFIX,getezclaw.com
   - DOMAIN-SUFFIX,getezo.com
@@ -286,6 +287,7 @@ payload:
   - DOMAIN-SUFFIX,ginka.cloud
   - DOMAIN-SUFFIX,globalai.vip
   - DOMAIN-SUFFIX,gmicloud.ai
+  - DOMAIN-SUFFIX,goai.im
   - DOMAIN-SUFFIX,gongyizhan.com
   - DOMAIN-SUFFIX,gpt-agent.cc
   - DOMAIN-SUFFIX,gpt.ge
@@ -323,6 +325,7 @@ payload:
   - DOMAIN-SUFFIX,huan666.de
   - DOMAIN-SUFFIX,huanapi.com
   - DOMAIN-SUFFIX,huanjing.cfd
+  - DOMAIN-SUFFIX,hubcodex.fun
   - DOMAIN-SUFFIX,hubway.cc
   - DOMAIN-SUFFIX,hyhawang.com
   - DOMAIN-SUFFIX,hyperapi.cc
@@ -539,6 +542,7 @@ payload:
   - DOMAIN-SUFFIX,relayfor.xyz
   - DOMAIN-SUFFIX,requesty.ai
   - DOMAIN-SUFFIX,right.codes
+  - DOMAIN-SUFFIX,rightapi.io
   - DOMAIN-SUFFIX,rivernexus.vip
   - DOMAIN-SUFFIX,rivora.cc
   - DOMAIN-SUFFIX,rjj.cc
@@ -709,6 +713,7 @@ payload:
   - DOMAIN-SUFFIX,yostoken.top
   - DOMAIN-SUFFIX,youkies.space
   - DOMAIN-SUFFIX,yuegle.com
+  - DOMAIN-SUFFIX,yunai.link
   - DOMAIN-SUFFIX,yunbay.xyz
   - DOMAIN-SUFFIX,yundu.lol
   - DOMAIN-SUFFIX,yunfei.best

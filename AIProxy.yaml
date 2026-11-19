@@ -1,7 +1,7 @@
 # ==================================================================
 # 规则名称: 第三方 AI API 中转与代理分流规则 (AIProxy.yaml - Clash 纯海外/免翻分流版)
-# 更新时间: 2026-11-18 02:06:17
-# 包含域名: 1353 个独立中转服务商根域名
+# 更新时间: 2026-11-19 01:44:03
+# 包含域名: 1358 个独立中转服务商根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Clash / Clash Meta (Mihomo) / Clash Verge / Stash 等
 # 配置方式: rule-providers (behavior: classical)
@@ -235,6 +235,8 @@ payload:
   - DOMAIN-SUFFIX,banana.dev
   - DOMAIN-SUFFIX,baobu.xyz
   - DOMAIN-SUFFIX,baseten.co
+  - DOMAIN-SUFFIX,bayunzi.shop
+  - DOMAIN-SUFFIX,bblabu.ai
   - DOMAIN-SUFFIX,bbww.top
   - DOMAIN-SUFFIX,bearlab.ai
   - DOMAIN-SUFFIX,beecode.cc
@@ -600,6 +602,7 @@ payload:
   - DOMAIN-SUFFIX,huanapi.com
   - DOMAIN-SUFFIX,huanjing.cfd
   - DOMAIN-SUFFIX,hubagi.ai
+  - DOMAIN-SUFFIX,hubcodex.fun
   - DOMAIN-SUFFIX,hubway.cc
   - DOMAIN-SUFFIX,huskyapi.com
   - DOMAIN-SUFFIX,hy88.my
@@ -773,6 +776,7 @@ payload:
   - DOMAIN-SUFFIX,mhoo.cc
   - DOMAIN-SUFFIX,micuapi.ai
   - DOMAIN-SUFFIX,midaccs.com
+  - DOMAIN-SUFFIX,midalo.ai
   - DOMAIN-SUFFIX,mikuapi.org
   - DOMAIN-SUFFIX,millionengine.com
   - DOMAIN-SUFFIX,minimax.io
@@ -1004,6 +1008,7 @@ payload:
   - DOMAIN-SUFFIX,relayrax.com
   - DOMAIN-SUFFIX,requesty.ai
   - DOMAIN-SUFFIX,right.codes
+  - DOMAIN-SUFFIX,rightapi.io
   - DOMAIN-SUFFIX,rivernexus.vip
   - DOMAIN-SUFFIX,rivoapi.com
   - DOMAIN-SUFFIX,rivora.cc
