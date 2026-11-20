@@ -1,7 +1,7 @@
 # ==================================================================
 # 规则名称: 第三方 AI API 中转与代理分流规则 (AIProxy.yaml - Clash 纯海外/免翻分流版)
-# 更新时间: 2026-11-19 01:44:03
-# 包含域名: 1358 个独立中转服务商根域名
+# 更新时间: 2026-11-20 01:40:20
+# 包含域名: 1360 个独立中转服务商根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Clash / Clash Meta (Mihomo) / Clash Verge / Stash 等
 # 配置方式: rule-providers (behavior: classical)
@@ -609,6 +609,7 @@ payload:
   - DOMAIN-SUFFIX,hyhawang.com
   - DOMAIN-SUFFIX,hyperapi.cc
   - DOMAIN-SUFFIX,hyperbolic.ai
+  - DOMAIN-SUFFIX,hziai.cc
   - DOMAIN-SUFFIX,hzlinkapi.si
   - DOMAIN-SUFFIX,ibm.com
   - DOMAIN-SUFFIX,icodeeasy.cc
@@ -845,6 +846,7 @@ payload:
   - DOMAIN-SUFFIX,nexaxis.ai
   - DOMAIN-SUFFIX,nexfaro.com
   - DOMAIN-SUFFIX,nexotoken.net
+  - DOMAIN-SUFFIX,nextoken.online
   - DOMAIN-SUFFIX,nextpro.top
   - DOMAIN-SUFFIX,nezhagate.com
   - DOMAIN-SUFFIX,nf.video
