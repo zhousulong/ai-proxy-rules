@@ -1,7 +1,7 @@
 # ==================================================================
 # 规则名称: 第三方 AI API 中转与代理分流规则 (AIProxy.yaml - Clash 纯海外/免翻分流版)
-# 更新时间: 2026-11-24 04:37:26
-# 包含域名: 1355 个独立中转服务商根域名
+# 更新时间: 2026-11-25 03:23:17
+# 包含域名: 1353 个独立中转服务商根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Clash / Clash Meta (Mihomo) / Clash Verge / Stash 等
 # 配置方式: rule-providers (behavior: classical)
@@ -69,7 +69,6 @@ payload:
   - DOMAIN-SUFFIX,9m8m.com
   - DOMAIN-SUFFIX,a2agent.me
   - DOMAIN-SUFFIX,a6api.com
-  - DOMAIN-SUFFIX,a6api.vip
   - DOMAIN-SUFFIX,aabao.top
   - DOMAIN-SUFFIX,abnt.it
   - DOMAIN-SUFFIX,agentrouter.org
@@ -502,6 +501,7 @@ payload:
   - DOMAIN-SUFFIX,fushengyunsuan.com
   - DOMAIN-SUFFIX,futureppo.top
   - DOMAIN-SUFFIX,fyoulink.com
+  - DOMAIN-SUFFIX,galgame.fit
   - DOMAIN-SUFFIX,gancmcs.top
   - DOMAIN-SUFFIX,ganfanpen.asia
   - DOMAIN-SUFFIX,gateai.cc
@@ -526,7 +526,6 @@ payload:
   - DOMAIN-SUFFIX,giaolink.com
   - DOMAIN-SUFFIX,gigazine.net
   - DOMAIN-SUFFIX,ginka.cloud
-  - DOMAIN-SUFFIX,globalai.vip
   - DOMAIN-SUFFIX,gmicloud.ai
   - DOMAIN-SUFFIX,goai.im
   - DOMAIN-SUFFIX,gogotoken.org
@@ -687,7 +686,6 @@ payload:
   - DOMAIN-SUFFIX,kunlun.com
   - DOMAIN-SUFFIX,lanbuff.app
   - DOMAIN-SUFFIX,lancerouter.ai
-  - DOMAIN-SUFFIX,laneai.dev
   - DOMAIN-SUFFIX,langziapi.online
   - DOMAIN-SUFFIX,lantapi.top
   - DOMAIN-SUFFIX,lanxiu.cc
@@ -793,7 +791,6 @@ payload:
   - DOMAIN-SUFFIX,modhubus.com
   - DOMAIN-SUFFIX,moduck.ai
   - DOMAIN-SUFFIX,moeapi.cloud
-  - DOMAIN-SUFFIX,mofas.one
   - DOMAIN-SUFFIX,moleapi.com
   - DOMAIN-SUFFIX,molyeye.com
   - DOMAIN-SUFFIX,momoai.asia
@@ -981,6 +978,7 @@ payload:
   - DOMAIN-SUFFIX,qlhazycoder.top
   - DOMAIN-SUFFIX,qqqrouter.ai
   - DOMAIN-SUFFIX,quanzil.com
+  - DOMAIN-SUFFIX,quem.work
   - DOMAIN-SUFFIX,quickrouter.ai
   - DOMAIN-SUFFIX,quicksilverpro.io
   - DOMAIN-SUFFIX,qunq.de
