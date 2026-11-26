@@ -1,7 +1,7 @@
 # ==================================================================
 # 规则名称: 第三方 AI API 中转与代理分流规则 (AIProxy.yaml - Clash 纯海外/免翻分流版)
-# 更新时间: 2026-11-25 03:23:17
-# 包含域名: 1353 个独立中转服务商根域名
+# 更新时间: 2026-11-26 02:39:38
+# 包含域名: 1357 个独立中转服务商根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Clash / Clash Meta (Mihomo) / Clash Verge / Stash 等
 # 配置方式: rule-providers (behavior: classical)
@@ -34,7 +34,6 @@ payload:
   - DOMAIN-SUFFIX,2dou.net
   - DOMAIN-SUFFIX,2slk.com
   - DOMAIN-SUFFIX,302.ai
-  - DOMAIN-SUFFIX,302ai.com
   - DOMAIN-SUFFIX,34ku.com
   - DOMAIN-SUFFIX,36niu.com
   - DOMAIN-SUFFIX,4aicode.com
@@ -69,6 +68,7 @@ payload:
   - DOMAIN-SUFFIX,9m8m.com
   - DOMAIN-SUFFIX,a2agent.me
   - DOMAIN-SUFFIX,a6api.com
+  - DOMAIN-SUFFIX,a6api.vip
   - DOMAIN-SUFFIX,aabao.top
   - DOMAIN-SUFFIX,abnt.it
   - DOMAIN-SUFFIX,agentrouter.org
@@ -113,7 +113,6 @@ payload:
   - DOMAIN-SUFFIX,aigcpro.org
   - DOMAIN-SUFFIX,aigocode.com
   - DOMAIN-SUFFIX,aigs.cc
-  - DOMAIN-SUFFIX,aihao.ai
   - DOMAIN-SUFFIX,aihub.dog
   - DOMAIN-SUFFIX,aihubmix.com
   - DOMAIN-SUFFIX,aiinide.com
@@ -526,6 +525,7 @@ payload:
   - DOMAIN-SUFFIX,giaolink.com
   - DOMAIN-SUFFIX,gigazine.net
   - DOMAIN-SUFFIX,ginka.cloud
+  - DOMAIN-SUFFIX,globalai.vip
   - DOMAIN-SUFFIX,gmicloud.ai
   - DOMAIN-SUFFIX,goai.im
   - DOMAIN-SUFFIX,gogotoken.org
@@ -657,6 +657,7 @@ payload:
   - DOMAIN-SUFFIX,kedaya.ai
   - DOMAIN-SUFFIX,kejike.top
   - DOMAIN-SUFFIX,kelaiapi.cc
+  - DOMAIN-SUFFIX,kelaode.si
   - DOMAIN-SUFFIX,kelaodealics.icu
   - DOMAIN-SUFFIX,kele520.com
   - DOMAIN-SUFFIX,keuapi.com
@@ -686,6 +687,7 @@ payload:
   - DOMAIN-SUFFIX,kunlun.com
   - DOMAIN-SUFFIX,lanbuff.app
   - DOMAIN-SUFFIX,lancerouter.ai
+  - DOMAIN-SUFFIX,laneai.dev
   - DOMAIN-SUFFIX,langziapi.online
   - DOMAIN-SUFFIX,lantapi.top
   - DOMAIN-SUFFIX,lanxiu.cc
@@ -1152,6 +1154,7 @@ payload:
   - DOMAIN-SUFFIX,tonbirds.com
   - DOMAIN-SUFFIX,tongapi.com
   - DOMAIN-SUFFIX,tongyuye.com
+  - DOMAIN-SUFFIX,topapi.io
   - DOMAIN-SUFFIX,toter.me
   - DOMAIN-SUFFIX,totokens.cc
   - DOMAIN-SUFFIX,traxnode.com
@@ -1196,6 +1199,7 @@ payload:
   - DOMAIN-SUFFIX,venlacy.com
   - DOMAIN-SUFFIX,vercel.com
   - DOMAIN-SUFFIX,vibelearning.top
+  - DOMAIN-SUFFIX,vibeloop.cc
   - DOMAIN-SUFFIX,vilao.ai
   - DOMAIN-SUFFIX,visnext.ai
   - DOMAIN-SUFFIX,viviai.cc
