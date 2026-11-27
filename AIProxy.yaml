@@ -1,7 +1,7 @@
 # ==================================================================
 # 规则名称: 第三方 AI API 中转与代理分流规则 (AIProxy.yaml - Clash 纯海外/免翻分流版)
-# 更新时间: 2026-11-26 02:39:38
-# 包含域名: 1357 个独立中转服务商根域名
+# 更新时间: 2026-11-27 02:40:23
+# 包含域名: 1359 个独立中转服务商根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Clash / Clash Meta (Mihomo) / Clash Verge / Stash 等
 # 配置方式: rule-providers (behavior: classical)
@@ -34,6 +34,7 @@ payload:
   - DOMAIN-SUFFIX,2dou.net
   - DOMAIN-SUFFIX,2slk.com
   - DOMAIN-SUFFIX,302.ai
+  - DOMAIN-SUFFIX,302ai.com
   - DOMAIN-SUFFIX,34ku.com
   - DOMAIN-SUFFIX,36niu.com
   - DOMAIN-SUFFIX,4aicode.com
@@ -68,7 +69,6 @@ payload:
   - DOMAIN-SUFFIX,9m8m.com
   - DOMAIN-SUFFIX,a2agent.me
   - DOMAIN-SUFFIX,a6api.com
-  - DOMAIN-SUFFIX,a6api.vip
   - DOMAIN-SUFFIX,aabao.top
   - DOMAIN-SUFFIX,abnt.it
   - DOMAIN-SUFFIX,agentrouter.org
@@ -204,6 +204,7 @@ payload:
   - DOMAIN-SUFFIX,apiqik.online
   - DOMAIN-SUFFIX,apirouter.ai
   - DOMAIN-SUFFIX,apirouter.chat
+  - DOMAIN-SUFFIX,apirove.com
   - DOMAIN-SUFFIX,apistudio.vip
   - DOMAIN-SUFFIX,apito.ai
   - DOMAIN-SUFFIX,apitoken.ai
@@ -733,6 +734,7 @@ payload:
   - DOMAIN-SUFFIX,longjinapi.com
   - DOMAIN-SUFFIX,loptu.net
   - DOMAIN-SUFFIX,lqapi.xyz
+  - DOMAIN-SUFFIX,lt-api.site
   - DOMAIN-SUFFIX,lt4net.org
   - DOMAIN-SUFFIX,luccc.uk
   - DOMAIN-SUFFIX,luciferai.cc
@@ -1072,6 +1074,7 @@ payload:
   - DOMAIN-SUFFIX,sssaicode.com
   - DOMAIN-SUFFIX,sssaicodeapi.com
   - DOMAIN-SUFFIX,sta1n.site
+  - DOMAIN-SUFFIX,star-mc.top
   - DOMAIN-SUFFIX,starchenapi.xyz
   - DOMAIN-SUFFIX,startapi.top
   - DOMAIN-SUFFIX,storeapi.one
@@ -1154,7 +1157,6 @@ payload:
   - DOMAIN-SUFFIX,tonbirds.com
   - DOMAIN-SUFFIX,tongapi.com
   - DOMAIN-SUFFIX,tongyuye.com
-  - DOMAIN-SUFFIX,topapi.io
   - DOMAIN-SUFFIX,toter.me
   - DOMAIN-SUFFIX,totokens.cc
   - DOMAIN-SUFFIX,traxnode.com

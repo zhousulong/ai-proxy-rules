@@ -1,7 +1,7 @@
 # ==================================================================
 # 规则名称: 精选高频第三方 AI API 中转分流规则 (AIProxy_Lite.yaml - Clash 纯海外/免翻分流版)
-# 更新时间: 2026-11-26 02:39:38
-# 包含域名: 747 个高频/多源收录中转站根域名
+# 更新时间: 2026-11-27 02:40:23
+# 包含域名: 749 个高频/多源收录中转站根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Clash / Clash Meta (Mihomo) / Clash Verge / Stash 等
 # 配置方式: rule-providers (behavior: classical)
@@ -30,7 +30,6 @@ payload:
   - DOMAIN-SUFFIX,988665.xyz
   - DOMAIN-SUFFIX,999554.xyz
   - DOMAIN-SUFFIX,9m8m.com
-  - DOMAIN-SUFFIX,a6api.vip
   - DOMAIN-SUFFIX,aabao.top
   - DOMAIN-SUFFIX,abnt.it
   - DOMAIN-SUFFIX,agentrouter.org
@@ -109,6 +108,7 @@ payload:
   - DOMAIN-SUFFIX,apipool.dev
   - DOMAIN-SUFFIX,apiporter.com
   - DOMAIN-SUFFIX,apirouter.ai
+  - DOMAIN-SUFFIX,apirove.com
   - DOMAIN-SUFFIX,apito.ai
   - DOMAIN-SUFFIX,apiyi.com
   - DOMAIN-SUFFIX,arilo.id
@@ -160,6 +160,7 @@ payload:
   - DOMAIN-SUFFIX,catrouter.io
   - DOMAIN-SUFFIX,cc.cd
   - DOMAIN-SUFFIX,ccgoai.club
+  - DOMAIN-SUFFIX,ccode.dev
   - DOMAIN-SUFFIX,ccsub.net
   - DOMAIN-SUFFIX,cctq.ai
   - DOMAIN-SUFFIX,ccwu.cc
@@ -593,6 +594,7 @@ payload:
   - DOMAIN-SUFFIX,squarefaceicon.org
   - DOMAIN-SUFFIX,sssaiapi.com
   - DOMAIN-SUFFIX,sssaicodeapi.com
+  - DOMAIN-SUFFIX,star-mc.top
   - DOMAIN-SUFFIX,su8.codes
   - DOMAIN-SUFFIX,suanniao.shop
   - DOMAIN-SUFFIX,suanzhou.top
@@ -629,7 +631,6 @@ payload:
   - DOMAIN-SUFFIX,tomchat.fun
   - DOMAIN-SUFFIX,tongapi.com
   - DOMAIN-SUFFIX,tongyuye.com
-  - DOMAIN-SUFFIX,topapi.io
   - DOMAIN-SUFFIX,totokens.cc
   - DOMAIN-SUFFIX,traxnode.com
   - DOMAIN-SUFFIX,true-sota.com
@@ -677,6 +678,7 @@ payload:
   - DOMAIN-SUFFIX,whenreset.app
   - DOMAIN-SUFFIX,wishtoapp.com
   - DOMAIN-SUFFIX,wkkapi.com
+  - DOMAIN-SUFFIX,wlai.vip
   - DOMAIN-SUFFIX,wokey.ai
   - DOMAIN-SUFFIX,worldbase.ai
   - DOMAIN-SUFFIX,wuyinkeji.com
