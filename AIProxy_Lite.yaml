@@ -1,7 +1,7 @@
 # ==================================================================
 # 规则名称: 精选高频第三方 AI API 中转分流规则 (AIProxy_Lite.yaml - Clash 纯海外/免翻分流版)
-# 更新时间: 2026-11-27 02:40:23
-# 包含域名: 749 个高频/多源收录中转站根域名
+# 更新时间: 2026-11-28 02:30:29
+# 包含域名: 750 个高频/多源收录中转站根域名
 # 过滤说明: 已剔除全部国内大厂、国内AI平台及全部 .cn 域名
 # 适用客户端: Clash / Clash Meta (Mihomo) / Clash Verge / Stash 等
 # 配置方式: rule-providers (behavior: classical)
@@ -40,6 +40,7 @@ payload:
   - DOMAIN-SUFFIX,ai98pro.xyz
   - DOMAIN-SUFFIX,aiapi-pro.com
   - DOMAIN-SUFFIX,aiapi.world
+  - DOMAIN-SUFFIX,aiapify.com
   - DOMAIN-SUFFIX,aiapipk.com
   - DOMAIN-SUFFIX,aiberm.com
   - DOMAIN-SUFFIX,aiboys.xyz
@@ -336,6 +337,7 @@ payload:
   - DOMAIN-SUFFIX,hziai.cc
   - DOMAIN-SUFFIX,hzlinkapi.si
   - DOMAIN-SUFFIX,ibm.com
+  - DOMAIN-SUFFIX,ifopen.ai
   - DOMAIN-SUFFIX,iisbo.com
   - DOMAIN-SUFFIX,ikuncode.cc
   - DOMAIN-SUFFIX,improvado.io
@@ -668,7 +670,6 @@ payload:
   - DOMAIN-SUFFIX,wanapis.com
   - DOMAIN-SUFFIX,wanzhuanai.icu
   - DOMAIN-SUFFIX,wappkit.com
-  - DOMAIN-SUFFIX,wasdxx.xyz
   - DOMAIN-SUFFIX,wawazz.xyz
   - DOMAIN-SUFFIX,wbhub.site
   - DOMAIN-SUFFIX,weekly-day.top
